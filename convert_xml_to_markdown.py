@@ -59,13 +59,13 @@ CONVERSIONS = {
         "description": "Actions formation collège"
     },
     "actions_lycee": {
-        "file": "files/ideo-actions_de_formation_initiale-univers_lycee.xml",
+        "file": "files/ideo-actions_de_formation_initiale-univers_lycee_part*.xml",
         "output": "output/ideo_actions_lycee",
         "type": "generic",
         "description": "Actions formation lycée"
     },
     "actions_superieur": {
-        "file": "files/ideo-actions_de_formation_initiale-univers_enseignement_superieur.xml",
+        "file": "files/ideo-actions_de_formation_initiale-univers_enseignement_superieur_part*.xml",
         "output": "output/ideo_actions_superieur",
         "type": "generic",
         "description": "Actions formation supérieur"
@@ -363,7 +363,7 @@ def convert_generic(item, index):
 
 def convert_file(key, config):
     """Convertit un fichier XML en Markdown."""
-    xml_file = config['file']
+    xml_pattern = config['file']
     output_dir = Path(config['output'])
     conv_type = config['type']
     desc = config['description']
@@ -372,62 +372,79 @@ def convert_file(key, config):
     print(f"📄 {desc}")
     print(f"{'='*70}")
     
-    if not Path(xml_file).exists():
-        print(f"⚠️  Fichier non trouvé: {xml_file}")
+    # Support des wildcards (fichiers découpés)
+    from glob import glob
+    xml_files = glob(xml_pattern) if '*' in xml_pattern else [xml_pattern]
+    
+    if not xml_files:
+        print(f"⚠️  Aucun fichier trouvé: {xml_pattern}")
         return 0
+    
+    if len(xml_files) > 1:
+        print(f"📦 Fichiers découpés trouvés: {len(xml_files)}")
     
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    try:
-        tree = ET.parse(xml_file)
-        root = tree.getroot()
+    total_converted = 0
+    all_items = []
+    
+    # Traiter tous les fichiers (parties découpées)
+    for xml_file in sorted(xml_files):
+        if not Path(xml_file).exists():
+            print(f"⚠️  Fichier non trouvé: {xml_file}")
+            continue
         
-        # Sélectionner les éléments à convertir
-        if conv_type in ['formations_detaillees', 'metiers_detailles']:
-            items = root.findall('.//formation') if conv_type == 'formations_detaillees' else root.findall('.//metier')
-        else:
-            items = root.findall('.//item')
-        
-        total = len(items)
-        print(f"Items trouvés: {total}")
-        
-        # Choisir le convertisseur
-        converters = {
-            'formations_detaillees': convert_formation_detaillee,
-            'metiers_detailles': convert_metier_detaille,
-            'formations_ideo': convert_formation_ideo,
-            'metiers_ideo': convert_metier_ideo,
-            'generic': convert_generic,
-        }
-        converter = converters[conv_type]
-        
-        # Convertir
-        converted = 0
-        for idx, item in enumerate(items, 1):
-            try:
-                if conv_type in ['formations_ideo', 'metiers_ideo', 'generic']:
-                    md_content, filename = converter(item, idx)
-                else:
-                    md_content, filename = converter(item)
-                
-                if md_content and filename:
-                    filepath = output_dir / filename
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        f.write(md_content)
-                    converted += 1
-                
-                if idx % 500 == 0:
-                    print(f"  Progression: {idx}/{total}")
-            except Exception as e:
-                print(f"  Erreur item {idx}: {e}")
-                continue
-        
-        print(f"✅ Terminé: {converted}/{total} fichiers")
-        return converted
-        
-    except Exception as e:
-        print(f"❌ Erreur: {e}")
-        return 0
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            # Sélectionner les éléments à convertir
+            if conv_type in ['formations_detaillees', 'metiers_detailles']:
+                items = root.findall('.//formation') if conv_type == 'formations_detaillees' else root.findall('.//metier')
+            else:
+                items = root.findall('.//item')
+            
+            all_items.extend(items)
+        except Exception as e:
+            print(f"❌ Erreur lecture {xml_file}: {e}")
+            continue
+    
+    total = len(all_items)
+    print(f"Items trouvés: {total}")
+    
+    # Choisir le convertisseur
+    converters = {
+        'formations_detaillees': convert_formation_detaillee,
+        'metiers_detailles': convert_metier_detaille,
+        'formations_ideo': convert_formation_ideo,
+        'metiers_ideo': convert_metier_ideo,
+        'generic': convert_generic,
+    }
+    converter = converters[conv_type]
+    
+    # Convertir tous les items
+    converted = 0
+    for idx, item in enumerate(all_items, 1):
+        try:
+            if conv_type in ['formations_ideo', 'metiers_ideo', 'generic']:
+                md_content, filename = converter(item, idx)
+            else:
+                md_content, filename = converter(item)
+            
+            if md_content and filename:
+                filepath = output_dir / filename
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(md_content)
+                converted += 1
+            
+            if idx % 500 == 0:
+                print(f"  Progression: {idx}/{total}")
+        except Exception as e:
+            print(f"  Erreur item {idx}: {e}")
+            continue
+    
+    print(f"✅ Terminé: {converted}/{total} fichiers")
+    return converted
 
 
 # ============================================================================
