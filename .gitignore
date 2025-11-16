@@ -30,5 +30,3 @@ Thumbs.db
 # Dossier de sortie (à générer localement)
 output/
 
-# Base de données de tracking
-files_tracking.db

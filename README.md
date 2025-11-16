@@ -235,7 +235,11 @@ python detect_files.py
 - ✅ Suggère la configuration TOML complète
 - ✅ Détecte les fichiers découpés (part*)
 - ✅ Donne des conseils (taille > 50MB, beaucoup d'items, etc.)
-- ✅ Tracking avec base SQLite locale
+- ✅ Tracking avec base SQLite **partagée sur GitHub** (24 KB)
+
+> 💡 **Note:** La base `files_tracking.db` est partagée sur GitHub.  
+> Quand quelqu'un clone le repo, il voit immédiatement tous les fichiers déjà trackés.  
+> Les nouveaux fichiers ajoutés localement sont automatiquement détectés.
 
 **Exemple de sortie:**
 
@@ -269,3 +273,41 @@ python detect_files.py
 5. Mettre à jour le pattern dans config.toml (wildcard)
 6. Lancer `./convert_all.sh`
 7. Marquer comme configuré: `python detect_files.py --mark-configured`
+
+## 🔄 Collaboration et nouveaux fichiers
+
+La base de données `files_tracking.db` est partagée sur GitHub pour faciliter la collaboration :
+
+**Scénarios:**
+
+1. **Vous clonez le repo**
+   ```bash
+   git clone ...
+   python detect_files.py
+   # → Voit tous les fichiers déjà configurés (✅)
+   # → Aucun nouveau fichier détecté
+   ```
+
+2. **Vous ajoutez un nouveau fichier**
+   ```bash
+   cp nouveau.xml files/
+   python detect_files.py
+   # → Détecte le nouveau fichier (🆕)
+   # → Suggère la configuration
+   # → Ajoute à la base locale
+   ```
+
+3. **Vous partagez avec l'équipe**
+   ```bash
+   git add files/nouveau.xml files_tracking.db config.toml
+   git commit -m "Ajout nouveau fichier + config"
+   git push
+   # → Les autres voient immédiatement le fichier déjà configuré
+   ```
+
+**Avantages:**
+- ✅ Tout le monde voit les mêmes fichiers
+- ✅ Détection automatique des nouveaux
+- ✅ Pas de duplication de travail
+- ✅ Historique des fichiers partagé
+- ✅ Base légère (24 KB)
