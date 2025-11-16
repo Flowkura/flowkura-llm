@@ -96,7 +96,8 @@ python split_large_xml.py
 ## 🛠️ Utilitaires
 
 ```bash
-python split_large_xml.py        # Découper gros XML
+python detect_files.py            # ⭐ Détecter nouveaux fichiers + suggestions config
+python split_large_xml.py         # Découper gros XML > 50MB
 python generate_stats.py          # Statistiques
 python search.py "informatique"   # Recherche
 python validate.py                # Validation qualité
@@ -138,8 +139,9 @@ TOTAL: ~154,000 fichiers
 
 | Fichier | Description |
 |---------|-------------|
-| `config.toml` | ⭐ Configuration (nouveau !) |
+| `config.toml` | ⭐ Configuration |
 | `convert_xml_to_markdown.py` | Script principal |
+| `detect_files.py` | 🆕 Détection auto + suggestions |
 | `split_large_xml.py` | Découpage fichiers > 50MB |
 | `convert_all.sh` | Raccourci bash |
 | `generate_stats.py` | Statistiques |
@@ -218,3 +220,52 @@ file = "files/mon_fichier_part*.xml"
 
 **🎯 100% prêt pour RagFlow !**  
 **Version:** 3.0 - Configuration externalisée + Support fichiers découpés
+
+## 🔍 Détection automatique des fichiers
+
+Le script `detect_files.py` détecte automatiquement les nouveaux fichiers XML et suggère leur configuration :
+
+```bash
+python detect_files.py
+```
+
+**Fonctionnalités:**
+- ✅ Détecte les nouveaux fichiers dans `files/`
+- ✅ Analyse leur structure (taille, items, tags)
+- ✅ Suggère la configuration TOML complète
+- ✅ Détecte les fichiers découpés (part*)
+- ✅ Donne des conseils (taille > 50MB, beaucoup d'items, etc.)
+- ✅ Tracking avec base SQLite locale
+
+**Exemple de sortie:**
+
+```
+📄 mon_nouveau_fichier.xml
+   Taille: 65.2 MB
+   Items: 45,000
+
+   💡 Notes:
+   ⚠️  Fichier > 50MB (65.2 MB)
+      → Lancer: python split_large_xml.py
+      → Puis utiliser wildcard: files/mon_nouveau_fichier_part*.xml
+   ℹ️  Beaucoup d'items (45,000)
+      → Conversion peut prendre du temps
+
+   📝 Configuration suggérée:
+
+   [conversions.mon_fichier]
+   file = "files/mon_nouveau_fichier.xml"
+   output = "output/mon_fichier"
+   type = "generic"
+   description = "Mon fichier"
+```
+
+**Workflow pour un nouveau fichier:**
+
+1. Copier le nouveau fichier XML dans `files/`
+2. Lancer `python detect_files.py`
+3. Copier la configuration suggérée dans `config.toml`
+4. Si fichier > 50MB: `python split_large_xml.py`
+5. Mettre à jour le pattern dans config.toml (wildcard)
+6. Lancer `./convert_all.sh`
+7. Marquer comme configuré: `python detect_files.py --mark-configured`
