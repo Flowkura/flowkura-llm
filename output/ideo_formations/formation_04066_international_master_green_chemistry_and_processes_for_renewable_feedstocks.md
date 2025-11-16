@@ -1,0 +1,19 @@
+# International Master Green chemistry and processes for renewable feedstocks
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.7298](https://www.onisep.fr/http/redirection/formation/slug/FOR.7298)
+
+## 🎯 Domaines
+
+- sciences/chimie
+- environnement, énergies, propreté/énergies
+- matières premières, fabrication, industries/méthodes industrialisation

@@ -1,0 +1,21 @@
+# BUT carrières sociales parcours assistance sociale
+
+## 📋 Informations générales
+
+**Type de formation:** bachelor universitaire de technologie (BUT)
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 35515
+**Niveau:** niveau 6
+
+**Code scolarité:** 25133201
+**Code NSF:** 332
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.7830](https://www.onisep.fr/http/redirection/formation/slug/FOR.7830)
+
+## 🎯 Domaines
+
+- santé, social, sport/travail social

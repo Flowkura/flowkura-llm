@@ -1,0 +1,25 @@
+# diplôme d'ingénieur de l'École polytechnique universitaire de l'université Côte d'Azur spécialité génie de l'eau et de l'aménagement
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'ingénieur
+**Sigle:** Polytech
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 38324
+**Niveau:** niveau 7
+
+**Code scolarité:** 17011601
+**Code NSF:** 116 | 117 | 214 | 343
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9113](https://www.onisep.fr/http/redirection/formation/slug/FOR.9113)
+
+## 🎯 Domaines
+
+- environnement, énergies, propreté/aménagement du territoire
+- environnement, énergies, propreté/gestion de l'eau
+- sciences/sciences de la Terre

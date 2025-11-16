@@ -1,0 +1,22 @@
+# licence mention informatique
+
+## 📋 Informations générales
+
+**Type de formation:** licence
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 40116
+**Niveau:** niveau 6
+
+**Code scolarité:** 20532618
+**Code NSF:** 326
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11109](https://www.onisep.fr/http/redirection/formation/slug/FOR.11109)
+
+## 🎯 Domaines
+
+- informatique, Internet/informatique (généralités)

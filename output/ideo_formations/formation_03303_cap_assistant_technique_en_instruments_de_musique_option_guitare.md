@@ -1,0 +1,22 @@
+# CAP assistant technique en instruments de musique option guitare
+
+## 📋 Informations générales
+
+**Type de formation:** certificat d'aptitude professionnelle (CAP)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** CAP ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 36255
+**Niveau:** niveau 3
+
+**Code scolarité:** 50032313
+**Code NSF:** 323
+**Tutelle:** Ministère chargé de l'Éducation nationale
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5586](https://www.onisep.fr/http/redirection/formation/slug/FOR.5586)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/artisanat d'art

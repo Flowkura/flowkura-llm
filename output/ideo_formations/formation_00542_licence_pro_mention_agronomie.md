@@ -1,0 +1,22 @@
+# licence pro mention agronomie
+
+## 📋 Informations générales
+
+**Type de formation:** licence professionnelle
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 40322
+**Niveau:** niveau 6
+
+**Code scolarité:** 25021021
+**Code NSF:** 210 | 118 | 211
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11265](https://www.onisep.fr/http/redirection/formation/slug/FOR.11265)
+
+## 🎯 Domaines
+
+- agriculture, animaux/agriculture (généralités)

@@ -1,0 +1,19 @@
+# MSc ingénierie d'affaires
+
+## 📋 Informations générales
+
+**Type de formation:** Master of Science (MSc)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 313
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8352](https://www.onisep.fr/http/redirection/formation/slug/FOR.8352)
+
+## 🎯 Domaines
+
+- banque, assurances, immobilier/finances
+- matières premières, fabrication, industries/génie industriel

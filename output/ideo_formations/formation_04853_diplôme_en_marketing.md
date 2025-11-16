@@ -1,0 +1,20 @@
+# diplôme en marketing
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'école de commerce visé de niveau bac + 4 ou 5
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 41225
+**Niveau:** niveau 7
+**Code NSF:** 310
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11738](https://www.onisep.fr/http/redirection/formation/slug/FOR.11738)
+
+## 🎯 Domaines
+
+- information-communication, audiovisuel/journalisme, édition, publicité
+- commerce, marketing, vente/marketing, vente

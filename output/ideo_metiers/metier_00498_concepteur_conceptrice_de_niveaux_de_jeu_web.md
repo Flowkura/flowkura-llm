@@ -1,0 +1,22 @@
+# concepteur / conceptrice de niveaux de jeu web
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.823](https://www.onisep.fr/http/redirection/metier/slug/MET.823)
+
+## 📚 Publication
+
+**Titre:** Les métiers du jeu vidéo
+**Collection:** Parcours
+**Année:** 2023
+**Code:** 9782273016193
+
+**Groupe Formation Emploi (GFE):** GFE U : communication, médias
+
+## 🏷️ Classification ROME
+
+**Code ROME:** E1104
+**Intitulé:** Conception de contenus multimédias
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/E1104](https://candidat.francetravail.fr/metierscope/fiche-metier/E1104)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques
+- information-communication, audiovisuel/multimédia

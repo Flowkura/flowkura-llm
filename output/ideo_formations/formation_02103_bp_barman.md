@@ -1,0 +1,22 @@
+# BP barman
+
+## 📋 Informations générales
+
+**Type de formation:** brevet professionnel (BP)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 37492
+**Niveau:** niveau 4
+
+**Code scolarité:** 45033403
+**Code NSF:** 334
+**Tutelle:** Ministère chargé de l'Éducation nationale
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.709](https://www.onisep.fr/http/redirection/formation/slug/FOR.709)
+
+## 🎯 Domaines
+
+- hôtellerie-restauration, tourisme/restauration

@@ -1,0 +1,24 @@
+# master mention management public
+
+## 📋 Informations générales
+
+**Type de formation:** master
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 35914
+**Niveau:** niveau 7
+
+**Code scolarité:** 1353101B
+**Code NSF:** 310
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.4674](https://www.onisep.fr/http/redirection/formation/slug/FOR.4674)
+
+## 🎯 Domaines
+
+- gestion des entreprises, comptabilité/administration de l'entreprise
+- économie, droit, politique/droit public
+- économie, droit, politique/sciences politiques

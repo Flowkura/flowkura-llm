@@ -1,0 +1,16 @@
+# agent / agente de développement des énergies renouvelables
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.893](https://www.onisep.fr/http/redirection/metier/slug/MET.893)
+
+## 📚 Publication
+
+**Titre:** Les métiers de l'environnement et du développement durable
+**Collection:** Parcours
+**Année:** 2024
+**Code:** 9782273017008
+
+**Groupe Formation Emploi (GFE):** GFE H : électricité, énergie, électronique
+
+## 🎯 Domaines
+
+- environnement, énergies, propreté/énergies
+- construction, architecture, travaux publics/équipement technique

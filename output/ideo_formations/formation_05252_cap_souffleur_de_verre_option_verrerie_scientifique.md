@@ -1,0 +1,23 @@
+# CAP souffleur de verre option verrerie scientifique
+
+## 📋 Informations générales
+
+**Type de formation:** certificat d'aptitude professionnelle (CAP)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** CAP ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 39940
+**Niveau:** niveau 3
+
+**Code scolarité:** 50022430
+**Code NSF:** 224
+**Tutelle:** Ministère chargé de l'Éducation nationale
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5909](https://www.onisep.fr/http/redirection/formation/slug/FOR.5909)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/artisanat d'art
+- matières premières, fabrication, industries/verre

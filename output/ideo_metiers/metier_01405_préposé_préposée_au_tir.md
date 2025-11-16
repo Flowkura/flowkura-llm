@@ -1,0 +1,21 @@
+# préposé / préposée au tir
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.7778](https://www.onisep.fr/http/redirection/metier/slug/MET.7778)
+
+## 📚 Publication
+
+**Titre:** Les métiers du bâtiment et des travaux publics
+**Collection:** Parcours
+**Année:** 2023
+**Code:** 9782273016445
+
+**Groupe Formation Emploi (GFE):** GFE C : bâtiment
+
+## 🏷️ Classification ROME
+
+**Code ROME:** F1402
+**Intitulé:** Extraction solide
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/F1402](https://candidat.francetravail.fr/metierscope/fiche-metier/F1402)
+
+## 🎯 Domaines
+
+- construction, architecture, travaux publics/travaux publics

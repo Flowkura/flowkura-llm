@@ -1,0 +1,22 @@
+# ingénieur papetier / ingénieure papetière
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.675](https://www.onisep.fr/http/redirection/metier/slug/MET.675)
+
+## 📚 Publication
+
+**Titre:** Les métiers de l'industrie du papier carton
+**Collection:** Zoom sur les métiers
+**Année:** 2025
+**Code:** 9782273017244
+
+**Groupe Formation Emploi (GFE):** GFE J : transformation des matériaux, procédés (biologie, chimie, physique)
+
+## 🏷️ Classification ROME
+
+**Code ROME:** H1206
+**Intitulé:** Management et ingénierie études, recherche et développement industriel
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/H1206](https://candidat.francetravail.fr/metierscope/fiche-metier/H1206)
+
+## 🎯 Domaines
+
+- sciences/chimie
+- matières premières, fabrication, industries/papier, carton

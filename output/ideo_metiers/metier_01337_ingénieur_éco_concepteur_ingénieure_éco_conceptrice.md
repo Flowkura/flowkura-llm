@@ -1,0 +1,17 @@
+# ingénieur éco-concepteur / ingénieure éco-conceptrice
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.633](https://www.onisep.fr/http/redirection/metier/slug/MET.633)
+
+## 📚 Publication
+
+**Titre:** Les métiers de l'environnement et du développement durable
+**Collection:** Parcours
+**Année:** 2024
+**Code:** 9782273017008
+
+**Groupe Formation Emploi (GFE):** GFE T : environnement, nettoyage, sécurité
+
+## 🎯 Domaines
+
+- environnement, énergies, propreté/environnement (généralités)
+- matières premières, fabrication, industries/études et développement
+- matières premières, fabrication, industries/matériaux

@@ -1,0 +1,21 @@
+# cycle préparatoire intégré de l'Icam Strasbourg-Europe - La prépa scientifique (prépa associée à un lycée partenaire) PCSI-PSI
+
+## 📋 Informations générales
+
+**Type de formation:** cycle préparatoire intégré (CPI)
+**Sigle:** ICAM
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 2
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9643](https://www.onisep.fr/http/redirection/formation/slug/FOR.9643)
+
+## 🎯 Domaines
+
+- matières premières, fabrication, industries/génie industriel
+- informatique, Internet/informatique (généralités)
+- sciences/mathématiques
+- sciences/physique

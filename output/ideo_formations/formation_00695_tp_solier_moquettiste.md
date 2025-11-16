@@ -1,0 +1,22 @@
+# TP solier moquettiste
+
+## 📋 Informations générales
+
+**Type de formation:** titre professionnel (TP)
+**Durée:** 1 an
+**Niveau de sortie indicatif:** CAP ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 36259
+**Niveau:** niveau 3
+
+**Code scolarité:** 56T23302
+**Code NSF:** 233
+**Tutelle:** Ministère du travail, de l'emploi et du dialogue social
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.7733](https://www.onisep.fr/http/redirection/formation/slug/FOR.7733)
+
+## 🎯 Domaines
+
+- construction, architecture, travaux publics/finition

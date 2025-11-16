@@ -1,0 +1,23 @@
+# diplôme d'État d'ambulancier
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'État du paramédical
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** CAP ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 36542
+**Niveau:** niveau 3
+
+**Code scolarité:** 56033105
+**Code NSF:** 331
+**Tutelle:** Ministère des Solidarités et de la Santé
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.7628](https://www.onisep.fr/http/redirection/formation/slug/FOR.7628)
+
+## 🎯 Domaines
+
+- santé, social, sport/paramédical
+- logistique, transport/transport

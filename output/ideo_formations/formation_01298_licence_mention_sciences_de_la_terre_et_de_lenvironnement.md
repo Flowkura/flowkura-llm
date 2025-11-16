@@ -1,0 +1,21 @@
+# licence mention sciences de la Terre et de l'environnement
+
+## 📋 Informations générales
+
+**Type de formation:** licence
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 37564
+**Niveau:** niveau 6
+**Code NSF:** 117
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.4863](https://www.onisep.fr/http/redirection/formation/slug/FOR.4863)
+
+## 🎯 Domaines
+
+- environnement, énergies, propreté/environnement (généralités)
+- sciences/sciences de la Terre

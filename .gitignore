@@ -1,6 +1,3 @@
-# Dossiers de sortie
-output/
-
 # Fichiers Python
 __pycache__/
 *.py[cod]

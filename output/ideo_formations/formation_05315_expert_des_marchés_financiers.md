@@ -1,0 +1,21 @@
+# expert des marchés financiers
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 38601
+**Niveau:** niveau 7
+
+**Code scolarité:** 16X31331
+**Code NSF:** 313
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9948](https://www.onisep.fr/http/redirection/formation/slug/FOR.9948)
+
+## 🎯 Domaines
+
+- banque, assurances, immobilier/finances

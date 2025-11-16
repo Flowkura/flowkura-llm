@@ -1,0 +1,22 @@
+# master mention droit pénal et sciences criminelles
+
+## 📋 Informations générales
+
+**Type de formation:** master
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 38200
+**Niveau:** niveau 7
+
+**Code scolarité:** 1351280R
+**Code NSF:** 128
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9756](https://www.onisep.fr/http/redirection/formation/slug/FOR.9756)
+
+## 🎯 Domaines
+
+- économie, droit, politique/activité judiciaire

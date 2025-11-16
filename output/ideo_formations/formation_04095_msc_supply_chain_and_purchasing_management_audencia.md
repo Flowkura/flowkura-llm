@@ -1,0 +1,19 @@
+# MSc Supply Chain and Purchasing Management (Audencia)
+
+## 📋 Informations générales
+
+**Type de formation:** Master of Science (MSc)
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 310
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.4451](https://www.onisep.fr/http/redirection/formation/slug/FOR.4451)
+
+## 🎯 Domaines
+
+- commerce, marketing, vente/achat, approvisionnement
+- logistique, transport/logistique

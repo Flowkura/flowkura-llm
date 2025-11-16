@@ -1,0 +1,21 @@
+# master mention mondes anciens
+
+## 📋 Informations générales
+
+**Type de formation:** master
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 40686
+**Niveau:** niveau 7
+**Code NSF:** 135
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11458](https://www.onisep.fr/http/redirection/formation/slug/FOR.11458)
+
+## 🎯 Domaines
+
+- histoire-géographie, psychologie, sociologie/histoire
+- lettres, langues, enseignement/lettres, linguistique

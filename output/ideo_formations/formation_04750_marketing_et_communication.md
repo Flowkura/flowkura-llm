@@ -1,0 +1,20 @@
+# marketing et communication
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 321
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.4335](https://www.onisep.fr/http/redirection/formation/slug/FOR.4335)
+
+## 🎯 Domaines
+
+- information-communication, audiovisuel/communication
+- information-communication, audiovisuel/journalisme, édition, publicité
+- commerce, marketing, vente/marketing, vente

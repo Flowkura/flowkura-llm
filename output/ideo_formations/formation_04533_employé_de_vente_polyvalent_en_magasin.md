@@ -1,0 +1,21 @@
+# employé de vente polyvalent en magasin
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 38525
+**Niveau:** niveau 4
+
+**Code scolarité:** 46X31201
+**Code NSF:** 312
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9989](https://www.onisep.fr/http/redirection/formation/slug/FOR.9989)
+
+## 🎯 Domaines
+
+- commerce, marketing, vente/grande distribution et petits commerces

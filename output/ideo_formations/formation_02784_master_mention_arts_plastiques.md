@@ -1,0 +1,20 @@
+# master mention arts plastiques
+
+## 📋 Informations générales
+
+**Type de formation:** master
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 39430
+**Niveau:** niveau 7
+**Code NSF:** 132
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.10369](https://www.onisep.fr/http/redirection/formation/slug/FOR.10369)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts plastiques

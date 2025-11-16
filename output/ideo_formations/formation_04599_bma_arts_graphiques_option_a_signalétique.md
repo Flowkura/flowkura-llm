@@ -1,0 +1,23 @@
+# BMA arts graphiques option A signalétique
+
+## 📋 Informations générales
+
+**Type de formation:** brevet des métiers d'art (BMA)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 37946
+**Niveau:** niveau 4
+
+**Code scolarité:** 40123304
+**Code NSF:** 233
+**Tutelle:** Ministère chargé de l'Éducation nationale
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5664](https://www.onisep.fr/http/redirection/formation/slug/FOR.5664)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts appliqués
+- arts, culture, artisanat/arts graphiques

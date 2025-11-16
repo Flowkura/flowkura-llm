@@ -1,0 +1,22 @@
+# CAP opérateur en appareillage orthopédique-spécialité orthoprothèse
+
+## 📋 Informations générales
+
+**Type de formation:** certificat d'aptitude professionnelle (CAP)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** CAP ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 37486
+**Niveau:** niveau 3
+
+**Code scolarité:** 50033106
+**Code NSF:** 331
+**Tutelle:** Ministère chargé de l'Éducation nationale
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8744](https://www.onisep.fr/http/redirection/formation/slug/FOR.8744)
+
+## 🎯 Domaines
+
+- santé, social, sport/paramédical

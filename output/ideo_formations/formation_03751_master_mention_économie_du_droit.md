@@ -1,0 +1,21 @@
+# master mention économie du droit
+
+## 📋 Informations générales
+
+**Type de formation:** master
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 39020
+**Niveau:** niveau 7
+**Code NSF:** 128
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.10222](https://www.onisep.fr/http/redirection/formation/slug/FOR.10222)
+
+## 🎯 Domaines
+
+- économie, droit, politique/droit (généralités)
+- économie, droit, politique/sciences économiques

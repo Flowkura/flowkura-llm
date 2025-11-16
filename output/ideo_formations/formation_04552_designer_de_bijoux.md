@@ -1,0 +1,19 @@
+# designer de bijoux
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 40394
+**Niveau:** niveau 5
+**Code NSF:** 223
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11418](https://www.onisep.fr/http/redirection/formation/slug/FOR.11418)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/artisanat d'art

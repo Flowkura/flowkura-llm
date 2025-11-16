@@ -1,0 +1,18 @@
+# bachelor maquilleur mode et beauté
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 336
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.3341](https://www.onisep.fr/http/redirection/formation/slug/FOR.3341)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts du spectacle

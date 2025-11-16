@@ -1,0 +1,18 @@
+# collaborateur / collaboratrice de cabinet d'expertise comptable
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.7772](https://www.onisep.fr/http/redirection/metier/slug/MET.7772)
+
+## 📚 Publication
+
+**Collection:** pas de publication Onisep spécifique
+
+**Groupe Formation Emploi (GFE):** GFE Q : commerce, gestion, finances
+
+## 🏷️ Classification ROME
+
+**Code ROME:** M1202
+**Intitulé:** Audit et contrôle comptables et financiers
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/M1202](https://candidat.francetravail.fr/metierscope/fiche-metier/M1202)
+
+## 🎯 Domaines
+
+- gestion des entreprises, comptabilité/comptabilité

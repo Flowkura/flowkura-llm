@@ -1,0 +1,23 @@
+# TP assistant manager d'unité marchande
+
+## 📋 Informations générales
+
+**Type de formation:** titre professionnel (TP)
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac ou équivalent
+
+## 🎓 Certification
+
+**Code RNCP:** 35233
+**Niveau:** niveau 4
+
+**Code scolarité:** 46T3120A
+**Code NSF:** 312
+**Tutelle:** Ministère du travail, de l'emploi et du dialogue social
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.7035](https://www.onisep.fr/http/redirection/formation/slug/FOR.7035)
+
+## 🎯 Domaines
+
+- commerce, marketing, vente/grande distribution et petits commerces
+- commerce, marketing, vente/marketing, vente

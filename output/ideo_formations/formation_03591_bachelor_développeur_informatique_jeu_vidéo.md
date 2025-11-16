@@ -1,0 +1,19 @@
+# bachelor développeur informatique - jeu vidéo
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8620](https://www.onisep.fr/http/redirection/formation/slug/FOR.8620)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques
+- informatique, Internet/développement, programmation, logiciel
+- information-communication, audiovisuel/multimédia

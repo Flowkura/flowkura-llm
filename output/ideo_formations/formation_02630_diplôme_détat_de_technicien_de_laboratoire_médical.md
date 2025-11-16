@@ -1,0 +1,24 @@
+# diplôme d'État de technicien de laboratoire médical
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'État du paramédical
+**Sigle:** DE TLM
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 39708
+**Niveau:** niveau 6
+
+**Code scolarité:** 26033108
+**Code NSF:** 331
+**Tutelle:** Ministère des Solidarités et de la Santé
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.10383](https://www.onisep.fr/http/redirection/formation/slug/FOR.10383)
+
+## 🎯 Domaines
+
+- sciences/biologie
+- santé, social, sport/paramédical

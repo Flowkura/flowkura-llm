@@ -1,0 +1,22 @@
+# rédacteur / rédactrice on line
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.334](https://www.onisep.fr/http/redirection/metier/slug/MET.334)
+
+## 📚 Publication
+
+**Titre:** Les métiers du numérique
+**Collection:** Parcours
+**Année:** 2025
+**Code:** 9782273017060
+
+**Groupe Formation Emploi (GFE):** GFE U : communication, médias
+
+## 🏷️ Classification ROME
+
+**Code ROME:** E1103
+**Intitulé:** Communication
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/E1103](https://candidat.francetravail.fr/metierscope/fiche-metier/E1103)
+
+## 🎯 Domaines
+
+- information-communication, audiovisuel/journalisme, édition, publicité
+- information-communication, audiovisuel/multimédia

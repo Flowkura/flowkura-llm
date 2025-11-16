@@ -1,0 +1,22 @@
+# diplôme d'ingénieur de l'École polytechnique universitaire de l'université Lyon I spécialité génie biomédical
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'ingénieur
+**Sigle:** Polytech
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 39791
+**Niveau:** niveau 7
+**Code NSF:** 331
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5958](https://www.onisep.fr/http/redirection/formation/slug/FOR.5958)
+
+## 🎯 Domaines
+
+- électricité, électronique, robotique/électronique
+- santé, social, sport/santé (généralités)

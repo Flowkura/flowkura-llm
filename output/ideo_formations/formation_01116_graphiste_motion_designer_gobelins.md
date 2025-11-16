@@ -1,0 +1,22 @@
+# graphiste Motion Designer (Gobelins)
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 35874
+**Niveau:** niveau 6
+
+**Code scolarité:** 26X32202
+**Code NSF:** 322 | 323
+**Tutelle:** Chambre de commerce et d'industrie
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.1657](https://www.onisep.fr/http/redirection/formation/slug/FOR.1657)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques

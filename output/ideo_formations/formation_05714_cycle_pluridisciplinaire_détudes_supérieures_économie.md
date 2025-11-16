@@ -1,0 +1,18 @@
+# cycle pluridisciplinaire d'études supérieures - économie
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Sigle:** CPES
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Niveau:** niveau 6
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.10616](https://www.onisep.fr/http/redirection/formation/slug/FOR.10616)
+
+## 🎯 Domaines
+
+- économie, droit, politique/sciences économiques

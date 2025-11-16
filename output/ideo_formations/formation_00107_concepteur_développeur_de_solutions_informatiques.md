@@ -1,0 +1,22 @@
+# concepteur développeur de solutions informatiques
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 39783
+**Niveau:** niveau 6
+
+**Code scolarité:** 26X32644
+**Code NSF:** 326
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11189](https://www.onisep.fr/http/redirection/formation/slug/FOR.11189)
+
+## 🎯 Domaines
+
+- informatique, Internet/développement, programmation, logiciel
+- information-communication, audiovisuel/multimédia

@@ -1,0 +1,18 @@
+# DU métiers et langue bretonne
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'université (DU)
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 1
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 136
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.403](https://www.onisep.fr/http/redirection/formation/slug/FOR.403)
+
+## 🎯 Domaines
+
+- lettres, langues, enseignement/langues

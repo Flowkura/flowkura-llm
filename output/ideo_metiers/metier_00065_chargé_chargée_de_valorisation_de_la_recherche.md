@@ -1,0 +1,12 @@
+# chargé / chargée de valorisation de la recherche
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.284](https://www.onisep.fr/http/redirection/metier/slug/MET.284)
+
+## 📚 Publication
+
+**Collection:** pas de publication Onisep spécifique
+
+**Groupe Formation Emploi (GFE):** GFE J : transformation des matériaux, procédés (biologie, chimie, physique)
+
+## 🎯 Domaines
+
+- économie, droit, politique/droit privé

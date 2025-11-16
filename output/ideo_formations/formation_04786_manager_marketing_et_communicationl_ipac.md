@@ -1,0 +1,21 @@
+# manager marketing et communicationl (IPAC)
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 40360
+**Niveau:** niveau 5
+
+**Code scolarité:** 16X31273
+**Code NSF:** 312
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11337](https://www.onisep.fr/http/redirection/formation/slug/FOR.11337)
+
+## 🎯 Domaines
+
+- commerce, marketing, vente/marketing, vente

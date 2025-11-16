@@ -1,0 +1,22 @@
+# DU assistant designer web
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'université (DU)
+**Sigle:** DSP
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 1
+
+## 🎓 Certification
+
+**Code RNCP:** 37210
+**Niveau:** niveau 4
+
+**Code scolarité:** 46032603
+**Code NSF:** 326 | 134 | 132
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8576](https://www.onisep.fr/http/redirection/formation/slug/FOR.8576)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques

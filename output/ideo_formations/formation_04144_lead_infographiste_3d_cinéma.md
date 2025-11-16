@@ -1,0 +1,18 @@
+# lead infographiste 3D cinéma
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 4 ans
+**Niveau de sortie indicatif:** bac + 4
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 322
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8265](https://www.onisep.fr/http/redirection/formation/slug/FOR.8265)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques

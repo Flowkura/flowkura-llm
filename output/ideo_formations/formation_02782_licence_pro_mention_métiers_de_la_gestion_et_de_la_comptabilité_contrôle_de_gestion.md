@@ -1,0 +1,23 @@
+# licence pro mention métiers de la gestion et de la comptabilité : contrôle de gestion
+
+## 📋 Informations générales
+
+**Type de formation:** licence professionnelle
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 40108
+**Niveau:** niveau 6
+
+**Code scolarité:** 25031439
+**Code NSF:** 314
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11059](https://www.onisep.fr/http/redirection/formation/slug/FOR.11059)
+
+## 🎯 Domaines
+
+- gestion des entreprises, comptabilité/administration de l'entreprise
+- gestion des entreprises, comptabilité/comptabilité

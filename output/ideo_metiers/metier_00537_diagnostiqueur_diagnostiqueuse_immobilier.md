@@ -1,0 +1,21 @@
+# diagnostiqueur / diagnostiqueuse immobilier
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.910](https://www.onisep.fr/http/redirection/metier/slug/MET.910)
+
+## 📚 Publication
+
+**Titre:** Les métiers du bâtiment et des travaux publics
+**Collection:** Parcours
+**Année:** 2023
+**Code:** 9782273016445
+
+**Groupe Formation Emploi (GFE):** GFE C : bâtiment
+
+## 🏷️ Classification ROME
+
+**Code ROME:** F1103
+**Intitulé:** Contrôle et diagnostic technique du bâtiment
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/F1103](https://candidat.francetravail.fr/metierscope/fiche-metier/F1103)
+
+## 🎯 Domaines
+
+- construction, architecture, travaux publics/génie civil, construction (généralités)

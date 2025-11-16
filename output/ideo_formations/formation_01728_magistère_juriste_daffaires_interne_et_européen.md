@@ -1,0 +1,21 @@
+# magistère juriste d'affaires interne et européen
+
+## 📋 Informations générales
+
+**Type de formation:** magistère
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 128
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.489](https://www.onisep.fr/http/redirection/formation/slug/FOR.489)
+
+## 🎯 Domaines
+
+- économie, droit, politique/droit (généralités)
+- économie, droit, politique/droit international
+- économie, droit, politique/droit privé

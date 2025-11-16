@@ -1,0 +1,25 @@
+# diplôme d'ingénieur de l'École polytechnique universitaire de l'université Sorbonne Université spécialité génie mécanique en partenariat avec l'ITII Ile-de-France
+
+## 📋 Informations générales
+
+**Type de formation:** diplôme d'ingénieur
+**Sigle:** Polytech
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Code RNCP:** 39276
+**Niveau:** niveau 7
+
+**Code scolarité:** 17025117
+**Code NSF:** 251 | 250 | 200
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.10696](https://www.onisep.fr/http/redirection/formation/slug/FOR.10696)
+
+## 🎯 Domaines
+
+- mécanique/aéronautique
+- matières premières, fabrication, industries/fonction production (généralités)
+- mécanique/mécanique (généralités)

@@ -1,0 +1,23 @@
+# BM peintre en bâtiment
+
+## 📋 Informations générales
+
+**Type de formation:** brevet de maîtrise (BM)
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 2
+
+## 🎓 Certification
+
+**Code RNCP:** 36598
+**Niveau:** niveau 5
+
+**Code scolarité:** 36M23403
+**Code NSF:** 234 | 233
+**Tutelle:** Chambres de métiers et de l'artisanat
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.8180](https://www.onisep.fr/http/redirection/formation/slug/FOR.8180)
+
+## 🎯 Domaines
+
+- construction, architecture, travaux publics/finition
+- construction, architecture, travaux publics/génie civil, construction (généralités)

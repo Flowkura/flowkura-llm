@@ -1,0 +1,23 @@
+# charcutier-traiteur / charcutière-traiteuse
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.153](https://www.onisep.fr/http/redirection/metier/slug/MET.153)
+
+## 📚 Publication
+
+**Titre:** Les métiers du goût et des saveurs
+**Collection:** Parcours
+**Année:** 2021
+**Code:** 9782273015721
+
+**Groupe Formation Emploi (GFE):** GFE K : production alimentaire
+
+## 🏷️ Classification ROME
+
+**Code ROME:** D1103
+**Intitulé:** Charcuterie - traiteur
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/D1103](https://candidat.francetravail.fr/metierscope/fiche-metier/D1103)
+
+## 🎯 Domaines
+
+- matières premières, fabrication, industries/agroalimentaire
+- commerce, marketing, vente/grande distribution et petits commerces
+- hôtellerie-restauration, tourisme/restauration

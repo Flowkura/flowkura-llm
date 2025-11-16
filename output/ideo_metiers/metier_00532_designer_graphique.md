@@ -1,0 +1,22 @@
+# designer graphique
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.5](https://www.onisep.fr/http/redirection/metier/slug/MET.5)
+
+## 📚 Publication
+
+**Titre:** Les métiers du jeu vidéo
+**Collection:** Parcours
+**Année:** 2023
+**Code:** 9782273016193
+
+**Groupe Formation Emploi (GFE):** GFE N : techniques graphiques, impression
+
+## 🏷️ Classification ROME
+
+**Code ROME:** E1205
+**Intitulé:** Réalisation de contenus multimédias
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/E1205](https://candidat.francetravail.fr/metierscope/fiche-metier/E1205)
+
+## 🎯 Domaines
+
+- arts, culture, artisanat/arts graphiques
+- information-communication, audiovisuel/industries graphiques

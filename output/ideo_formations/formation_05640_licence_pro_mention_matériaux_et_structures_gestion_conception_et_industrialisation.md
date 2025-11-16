@@ -1,0 +1,24 @@
+# licence pro mention matériaux et structures : gestion, conception et industrialisation
+
+## 📋 Informations générales
+
+**Type de formation:** licence professionnelle
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 30100
+**Niveau:** niveau 6
+
+**Code scolarité:** 25022026
+**Code NSF:** 220
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5211](https://www.onisep.fr/http/redirection/formation/slug/FOR.5211)
+
+## 🎯 Domaines
+
+- matières premières, fabrication, industries/matériaux
+- matières premières, fabrication, industries/méthodes industrialisation
+- matières premières, fabrication, industries/plasturgie

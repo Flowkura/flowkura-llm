@@ -1,0 +1,45 @@
+# DEJEPS spécialité perfectionnement sportif mention athlétisme et disciplines associées
+
+## Informations générales
+
+**Code scolarité:** 33633502
+**Durée:** 2 ans
+**Niveau de certification:** niveau 5
+**Type:** diplôme d'État de la jeunesse, de l'éducation populaire et du sport (DEJEPS)
+
+**Lien:** [https://www.sports.gouv.fr/athletisme-et-disciplines-associees-585](https://www.sports.gouv.fr/athletisme-et-disciplines-associees-585)
+
+## Description
+
+Le titulaire du diplôme d'état de la jeunesse, de l'éducation populaire et du sport (DEJEPS) spécialité « perfectionnement sportif » peut exercer le métier d'entraîneur dans le cadre d'associations sportives affiliées à une fédération sportive ou d'entreprises du secteur sportif professionnel. Il peut être amené à intervenir avec tous les publics compétiteurs. Il sait encadrer les activités d'entraînement et de perfectionnement sportif et il participe à la conception du projet et à la direction de la structure pour laquelle il travaille.
+
+            L'Onisep ne dispose pas de l'ensemble de l'offre de formation proposée pour ce diplôme. Cependant, il est possible de suivre en temps réel l'évolution de l'offre de formation sur le site dédié du ministère chargé des sports.
+
+## Accès
+
+### Accès
+            - Aucun diplôme scolaire requis, sauf pour les candidatures via Parcoursup, qui nécessitent le bac
+
+            - Être recensé à la JDC (Journée défense et de la citoyenneté) pour les citoyens français de moins de 25 ans
+
+            - Être obligatoirement titulaire d'une attestation de formation aux premiers secours
+
+            - Présenter un certificat médical de non-contre-indication à la pratique et à l'encadrement de la discipline
+
+            - Satisfaire aux exigences préalables à l'entrée en formation (attestation d'expérience ou de pratique) et le cas échéant réussir les TEP (tests d'exigence préalable), fixés pour la discipline sportive au niveau national, pour vérifier la capacité technique et physique du candidat.
+
+            - En fonction de l'expérience du candidat ou des formations du sport déjà suivies, des dispenses d'épreuves et allègements de formation peuvent être accordés.
+
+            - Sélection complémentaire si le nombre de candidats dépasse la capacité d'accueil de l'organisme de formation : dossier (CV, lettre de motivation, expérience et projet professionnel), entretien de motivation et/ou tests (épreuves physiques, écrites et orales).
+
+            - Autres attestations prévues par l'arrêté relatif à la discipline sportive
+
+## Attendus
+
+### Attendus nationaux de la plateforme d'inscription dans l'enseignement supérieur Parcoursup
+            Le DEJEPS spécialité perfectionnement sportif nécessite une bonne condition physique et une très bonne maitrise technique de la discipline sportive visée par la mention du diplôme. Une pratique sportive personnelle, dans un club de la discipline sportive de la mention, est souhaitable Un investissement dans l'organisation fédérale spécifique à la mention est recommandée. Les candidats doivent être en capacité d'acquérir des contenus théoriques leur permettant de produire une analyse propre au contexte spécifique de la discipline sportive. La mise en situation professionnelle intervenant assez rapidement, un goût pour le contact avec des publics diversifiés et une aisance dans la relation humaine sont des atouts importants. Une expression orale maitrisée est requise. L'expression écrite doit permettre de produire des argumentaires organisés et des analyses de pratique professionnelle.
+
+## Métiers associés
+
+- agent/e de développement sportif
+- préparateur/trice physique

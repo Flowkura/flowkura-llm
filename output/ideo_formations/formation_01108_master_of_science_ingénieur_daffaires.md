@@ -1,0 +1,20 @@
+# Master of Science ingénieur d'affaires
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 2 ans
+**Niveau de sortie indicatif:** bac + 5
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 310
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.9633](https://www.onisep.fr/http/redirection/formation/slug/FOR.9633)
+
+## 🎯 Domaines
+
+- commerce, marketing, vente/achat, approvisionnement
+- logistique, transport/logistique
+- commerce, marketing, vente/marketing, vente

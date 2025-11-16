@@ -1,0 +1,22 @@
+# licence pro mention biologie analytique et expérimentale
+
+## 📋 Informations générales
+
+**Type de formation:** licence professionnelle
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac + 3
+
+## 🎓 Certification
+
+**Code RNCP:** 30048
+**Niveau:** niveau 6
+
+**Code scolarité:** 25011818
+**Code NSF:** 118
+**Tutelle:** Ministère de l'Enseignement supérieur et de la Recherche
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.5132](https://www.onisep.fr/http/redirection/formation/slug/FOR.5132)
+
+## 🎯 Domaines
+
+- sciences/biologie

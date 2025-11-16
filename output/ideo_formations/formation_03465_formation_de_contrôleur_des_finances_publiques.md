@@ -1,0 +1,20 @@
+# formation de contrôleur des finances publiques
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 1 an
+**Niveau de sortie indicatif:** bac ou équivalent
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 313
+**Tutelle:** Ministère chargé de l'Économie, des Finances et de la Souveraineté industrielle et numérique
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.2286](https://www.onisep.fr/http/redirection/formation/slug/FOR.2286)
+
+## 🎯 Domaines
+
+- économie, droit, politique/droit public
+- banque, assurances, immobilier/finances

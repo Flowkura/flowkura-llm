@@ -1,0 +1,21 @@
+# animateur qualité sécurité environnement (CESI)
+
+## 📋 Informations générales
+
+**Type de formation:** formation d'école spécialisée
+**Durée:** 3 ans
+**Niveau de sortie indicatif:** bac + 2
+
+## 🎓 Certification
+
+**Code RNCP:** 41100
+**Niveau:** niveau 5
+**Code NSF:** 200 | 343 | 344
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.11863](https://www.onisep.fr/http/redirection/formation/slug/FOR.11863)
+
+## 🎯 Domaines
+
+- environnement, énergies, propreté/environnement (généralités)
+- matières premières, fabrication, industries/maintenance, qualité
+- armée, sécurité/sécurité, prévention

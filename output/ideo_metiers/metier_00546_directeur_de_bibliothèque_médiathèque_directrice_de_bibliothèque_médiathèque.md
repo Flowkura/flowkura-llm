@@ -1,0 +1,18 @@
+# directeur de bibliothèque-médiathèque / directrice de bibliothèque-médiathèque
+**🔗 Fiche métier Onisep:** [https://www.onisep.fr/http/redirection/metier/slug/MET.136](https://www.onisep.fr/http/redirection/metier/slug/MET.136)
+
+## 📚 Publication
+
+**Collection:** pas de publication Onisep spécifique
+
+**Groupe Formation Emploi (GFE):** GFE P : Gestion et traitement de l'information (informatique, statistique, documentation)
+
+## 🏷️ Classification ROME
+
+**Code ROME:** K1601
+**Intitulé:** Gestion de l'information et de la documentation
+**Lien France Travail:** [https://candidat.francetravail.fr/metierscope/fiche-metier/K1601](https://candidat.francetravail.fr/metierscope/fiche-metier/K1601)
+
+## 🎯 Domaines
+
+- information-communication, audiovisuel/bibliothèque, documentation

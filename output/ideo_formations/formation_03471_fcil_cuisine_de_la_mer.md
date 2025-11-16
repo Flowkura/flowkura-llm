@@ -1,0 +1,18 @@
+# FCIL cuisine de la mer
+
+## 📋 Informations générales
+
+**Type de formation:** formation complémentaire d'initiative locale (FCIL)
+**Durée:** 1 an
+**Niveau de sortie indicatif:** CAP ou équivalent + 1 an
+
+## 🎓 Certification
+
+**Niveau:** non inscrit au RNCP
+**Code NSF:** 221
+
+**🔗 Fiche formation Onisep:** [https://www.onisep.fr/http/redirection/formation/slug/FOR.2081](https://www.onisep.fr/http/redirection/formation/slug/FOR.2081)
+
+## 🎯 Domaines
+
+- hôtellerie-restauration, tourisme/restauration
