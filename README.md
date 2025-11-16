@@ -6,14 +6,21 @@
 ## ⚡ Démarrage rapide
 
 ```bash
-# 1. Installation
+# 1. Cloner le repo
+git clone git@github.com:clifinger/onisep-xml-to-markdown.git
+cd onisep-xml-to-markdown
+
+# 2. Installation
 mise use python@3.11 uv
 
-# 2. Conversion COMPLÈTE
+# 3. Conversion COMPLÈTE (15 secondes)
 ./convert_all.sh
 
 # Résultat: ~154,000 fichiers Markdown dans output/
 ```
+
+> ⚠️ **Note:** Le dossier `output/` n'est pas inclus dans le repo GitHub.  
+> Les fichiers Markdown sont générés localement en 15 secondes avec `./convert_all.sh`
 
 ## 📦 Ce qui est converti
 
