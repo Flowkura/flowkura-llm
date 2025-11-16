@@ -5,6 +5,7 @@ Script pour générer des statistiques sur les fichiers Markdown générés.
 
 from pathlib import Path
 import os
+import tomllib
 
 
 def analyze_directory(directory):
@@ -57,64 +58,77 @@ def main():
     print("=" * 60)
     print()
     
-    # Analyser les formations
-    formations_dir = "output/formations"
-    formations_stats = analyze_directory(formations_dir)
+    # Charger la configuration
+    config_file = Path("config.toml")
+    if not config_file.exists():
+        print("❌ Fichier config.toml introuvable")
+        return
     
-    if formations_stats:
-        print("📚 FORMATIONS")
-        print("-" * 60)
-        print(f"  Nombre de fichiers     : {formations_stats['total_files']:,}")
-        print(f"  Taille totale          : {format_size(formations_stats['total_size'])}")
-        print(f"  Taille moyenne/fichier : {format_size(formations_stats['avg_size'])}")
-        print(f"  Taille min             : {format_size(formations_stats['min_size'])}")
-        print(f"  Taille max             : {format_size(formations_stats['max_size'])}")
-        print(f"  Nombre total de lignes : {formations_stats['total_lines']:,}")
-        print(f"  Moyenne lignes/fichier : {formations_stats['avg_lines']:.1f}")
-        print()
-    else:
-        print(f"❌ Aucun fichier trouvé dans {formations_dir}")
-        print()
+    with open(config_file, "rb") as f:
+        config = tomllib.load(f)
     
-    # Analyser les métiers
-    metiers_dir = "output/metiers"
-    metiers_stats = analyze_directory(metiers_dir)
+    if "conversions" not in config:
+        print("❌ Aucune conversion définie dans config.toml")
+        return
     
-    if metiers_stats:
-        print("💼 MÉTIERS")
-        print("-" * 60)
-        print(f"  Nombre de fichiers     : {metiers_stats['total_files']:,}")
-        print(f"  Taille totale          : {format_size(metiers_stats['total_size'])}")
-        print(f"  Taille moyenne/fichier : {format_size(metiers_stats['avg_size'])}")
-        print(f"  Taille min             : {format_size(metiers_stats['min_size'])}")
-        print(f"  Taille max             : {format_size(metiers_stats['max_size'])}")
-        print(f"  Nombre total de lignes : {metiers_stats['total_lines']:,}")
-        print(f"  Moyenne lignes/fichier : {metiers_stats['avg_lines']:.1f}")
-        print()
-    else:
-        print(f"❌ Aucun fichier trouvé dans {metiers_dir}")
-        print()
+    all_stats = []
+    
+    # Analyser chaque conversion définie dans le config
+    for name, conv_config in config["conversions"].items():
+        output_dir = conv_config.get("output")
+        description = conv_config.get("description", name)
+        
+        if not output_dir:
+            continue
+        
+        stats = analyze_directory(output_dir)
+        
+        if stats:
+            stats['name'] = name
+            stats['description'] = description
+            stats['output_dir'] = output_dir
+            all_stats.append(stats)
+            
+            print(f"📁 {description.upper()}")
+            print("-" * 60)
+            print(f"  Dossier                : {output_dir}")
+            print(f"  Nombre de fichiers     : {stats['total_files']:,}")
+            print(f"  Taille totale          : {format_size(stats['total_size'])}")
+            print(f"  Taille moyenne/fichier : {format_size(stats['avg_size'])}")
+            print(f"  Taille min             : {format_size(stats['min_size'])}")
+            print(f"  Taille max             : {format_size(stats['max_size'])}")
+            print(f"  Nombre total de lignes : {stats['total_lines']:,}")
+            print(f"  Moyenne lignes/fichier : {stats['avg_lines']:.1f}")
+            print()
+        else:
+            print(f"⚠️  {description.upper()}")
+            print("-" * 60)
+            print(f"  Dossier : {output_dir}")
+            print(f"  ❌ Aucun fichier trouvé")
+            print()
     
     # Statistiques globales
-    if formations_stats and metiers_stats:
+    if all_stats:
         print("🌍 TOTAL GLOBAL")
         print("-" * 60)
-        total_files = formations_stats['total_files'] + metiers_stats['total_files']
-        total_size = formations_stats['total_size'] + metiers_stats['total_size']
-        total_lines = formations_stats['total_lines'] + metiers_stats['total_lines']
+        total_files = sum(s['total_files'] for s in all_stats)
+        total_size = sum(s['total_size'] for s in all_stats)
+        total_lines = sum(s['total_lines'] for s in all_stats)
         
         print(f"  Nombre total de fichiers : {total_files:,}")
         print(f"  Taille totale            : {format_size(total_size)}")
         print(f"  Nombre total de lignes   : {total_lines:,}")
         print()
         
-        # Ratios
-        print("📈 RATIOS")
+        # Ratios par type
+        print("📈 RÉPARTITION PAR TYPE")
         print("-" * 60)
-        formations_pct = (formations_stats['total_files'] / total_files * 100)
-        metiers_pct = (metiers_stats['total_files'] / total_files * 100)
-        print(f"  Formations : {formations_pct:.1f}% des fichiers")
-        print(f"  Métiers    : {metiers_pct:.1f}% des fichiers")
+        for stats in sorted(all_stats, key=lambda x: x['total_files'], reverse=True):
+            pct = (stats['total_files'] / total_files * 100)
+            print(f"  {stats['description']:30} : {stats['total_files']:6,} fichiers ({pct:5.1f}%)")
+        print()
+    else:
+        print("❌ Aucun fichier Markdown trouvé dans les dossiers de sortie")
         print()
     
     print("=" * 60)
