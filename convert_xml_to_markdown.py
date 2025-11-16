@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script universel de conversion XML → Markdown pour tous les fichiers ONISEP/IDEO.
-Ce script unique remplace tous les scripts individuels.
+La configuration est externalisée dans config.toml
 
 Usage:
     python convert_xml_to_markdown.py              # Convertit TOUT
@@ -16,105 +16,31 @@ from pathlib import Path
 from html import unescape
 import sys
 import time
+from glob import glob
+
+# Lecture de la configuration depuis config.toml
+try:
+    import tomllib
+except ImportError:
+    import tomli as tomllib
 
 
 # ============================================================================
-# CONFIGURATIONS DE TOUS LES FICHIERS
+# CHARGEMENT DE LA CONFIGURATION
 # ============================================================================
 
-CONVERSIONS = {
-    # Fiches détaillées ONISEP (format riche)
-    "formations_onisep": {
-        "file": "files/Onisep_Ideo_Fiches_Formations_21102025.xml",
-        "output": "output/formations",
-        "type": "formations_detaillees",
-        "description": "Fiches formations ONISEP détaillées"
-    },
-    "metiers_onisep": {
-        "file": "files/Onisep_Ideo_Fiches_Metiers_21102025.xml",
-        "output": "output/metiers",
-        "type": "metiers_detailles",
-        "description": "Fiches métiers ONISEP détaillées"
-    },
+def load_config():
+    """Charge la configuration depuis config.toml"""
+    config_file = Path("config.toml")
+    if not config_file.exists():
+        print("❌ Fichier config.toml non trouvé!")
+        sys.exit(1)
     
-    # Référentiels IDEO (format simplifié)
-    "formations_ideo": {
-        "file": "files/ideo-formations_initiales_en_france.xml.xml",
-        "output": "output/ideo_formations",
-        "type": "formations_ideo",
-        "description": "Référentiel formations IDEO"
-    },
-    "metiers_ideo": {
-        "file": "files/ideo-metiers_onisep.xml.xml",
-        "output": "output/ideo_metiers",
-        "type": "metiers_ideo",
-        "description": "Référentiel métiers IDEO"
-    },
-    
-    # Actions de formation
-    "actions_college": {
-        "file": "files/ideo-actions_de_formation_initiale-univers_college.xml.xml",
-        "output": "output/ideo_actions_college",
-        "type": "generic",
-        "description": "Actions formation collège"
-    },
-    "actions_lycee": {
-        "file": "files/ideo-actions_de_formation_initiale-univers_lycee_part*.xml",
-        "output": "output/ideo_actions_lycee",
-        "type": "generic",
-        "description": "Actions formation lycée"
-    },
-    "actions_superieur": {
-        "file": "files/ideo-actions_de_formation_initiale-univers_enseignement_superieur_part*.xml",
-        "output": "output/ideo_actions_superieur",
-        "type": "generic",
-        "description": "Actions formation supérieur"
-    },
-    
-    # Autres données IDEO
-    "dispositifs": {
-        "file": "files/ideo-actions_de_dispositif.xml",
-        "output": "output/ideo_dispositifs",
-        "type": "generic",
-        "description": "Dispositifs"
-    },
-    "specialites": {
-        "file": "files/ideo-enseignements_de_specialite_de_premiere_generale.xml.xml",
-        "output": "output/ideo_specialites_premiere",
-        "type": "generic",
-        "description": "Spécialités première"
-    },
-    "optionnels": {
-        "file": "files/ideo-enseignements_optionnels_de_seconde_generale_et_technologique.xml.xml",
-        "output": "output/ideo_optionnels_seconde",
-        "type": "generic",
-        "description": "Optionnels seconde"
-    },
-    "langues": {
-        "file": "files/ideo-langues_au_college.xml.xml",
-        "output": "output/ideo_langues",
-        "type": "generic",
-        "description": "Langues au collège"
-    },
-    "structures_secondaire": {
-        "file": "files/ideo-structures_denseignement_secondaire.xml",
-        "output": "output/ideo_structures_secondaire",
-        "type": "generic",
-        "description": "Structures secondaire"
-    },
-    "structures_superieur": {
-        "file": "files/ideo-structures_denseignement_superieur.xml.xml",
-        "output": "output/ideo_structures_superieur",
-        "type": "generic",
-        "description": "Structures supérieur"
-    },
-    "certifications": {
-        "file": "files/table_de_passage_codes_certifications_et_formations.xml.xml",
-        "output": "output/ideo_certifications",
-        "type": "generic",
-        "description": "Table certifications"
-    },
-}
+    with open(config_file, 'rb') as f:
+        return tomllib.load(f)
+
+
+CONVERSIONS = load_config()['conversions']
 
 
 # ============================================================================
@@ -216,7 +142,7 @@ def convert_formation_detaillee(formation):
     metiers = formation.findall('.//metier')
     if metiers:
         md.append("\n## Métiers associés\n\n")
-        for metier in metiers[:10]:  # Limiter à 10
+        for metier in metiers[:10]:
             nom = get_text(metier, 'nom_metier')
             if nom:
                 md.append(f"- {nom}\n")
@@ -260,7 +186,7 @@ def convert_metier_detaille(metier):
     formations = metier.findall('.//formation_min_requise')
     if formations:
         md.append("\n## Formations recommandées\n\n")
-        for form in formations[:15]:  # Limiter à 15
+        for form in formations[:15]:
             lib = get_text(form, 'libelle')
             if lib:
                 md.append(f"- {lib}\n")
@@ -330,7 +256,6 @@ def convert_metier_ideo(item, index):
 
 def convert_generic(item, index):
     """Convertisseur générique pour les autres fichiers."""
-    # Trouver le premier champ texte non vide comme titre
     title = None
     for child in item:
         if child.text and len(child.text.strip()) > 3:
@@ -342,13 +267,11 @@ def convert_generic(item, index):
     
     md = [f"# {title}\n\n"]
     
-    # Ajouter tous les champs
     for child in item:
         if child.text and child.text.strip():
             val = unescape(child.text.strip())
             tag = child.tag.replace('_', ' ').title()
             
-            # Traiter les URLs
             if 'url' in child.tag.lower() or 'lien' in child.tag.lower():
                 md.append(f"**{tag}:** [{val}]({val})\n")
             else:
@@ -373,7 +296,6 @@ def convert_file(key, config):
     print(f"{'='*70}")
     
     # Support des wildcards (fichiers découpés)
-    from glob import glob
     xml_files = glob(xml_pattern) if '*' in xml_pattern else [xml_pattern]
     
     if not xml_files:
@@ -382,10 +304,11 @@ def convert_file(key, config):
     
     if len(xml_files) > 1:
         print(f"📦 Fichiers découpés trouvés: {len(xml_files)}")
+        for f in xml_files:
+            print(f"   - {Path(f).name}")
     
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    total_converted = 0
     all_items = []
     
     # Traiter tous les fichiers (parties découpées)
@@ -471,14 +394,12 @@ def main():
     
     # Déterminer quoi convertir
     if args:
-        # Conversion sélective
         to_convert = {k: v for k, v in CONVERSIONS.items() if any(arg in k for arg in args)}
         if not to_convert:
             print(f"❌ Catégorie inconnue: {args}")
             print("Utilisez --help pour voir les catégories disponibles")
             return
     else:
-        # Tout convertir
         to_convert = CONVERSIONS
     
     # Conversion

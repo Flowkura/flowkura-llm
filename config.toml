@@ -1,0 +1,122 @@
+# Configuration des conversions XML → Markdown
+# Ce fichier définit tous les fichiers XML à convertir et leurs paramètres
+
+# ============================================================================
+# FICHES DÉTAILLÉES ONISEP (format riche avec toutes les infos)
+# ============================================================================
+
+[conversions.formations_onisep]
+file = "files/Onisep_Ideo_Fiches_Formations_21102025.xml"
+output = "output/formations"
+type = "formations_detaillees"
+description = "Fiches formations ONISEP détaillées"
+
+[conversions.metiers_onisep]
+file = "files/Onisep_Ideo_Fiches_Metiers_21102025.xml"
+output = "output/metiers"
+type = "metiers_detailles"
+description = "Fiches métiers ONISEP détaillées"
+
+# ============================================================================
+# RÉFÉRENTIELS IDEO (format simplifié)
+# ============================================================================
+
+[conversions.formations_ideo]
+file = "files/ideo-formations_initiales_en_france.xml.xml"
+output = "output/ideo_formations"
+type = "formations_ideo"
+description = "Référentiel formations IDEO"
+
+[conversions.metiers_ideo]
+file = "files/ideo-metiers_onisep.xml.xml"
+output = "output/ideo_metiers"
+type = "metiers_ideo"
+description = "Référentiel métiers IDEO"
+
+# ============================================================================
+# ACTIONS DE FORMATION PAR NIVEAU
+# ============================================================================
+
+[conversions.actions_college]
+file = "files/ideo-actions_de_formation_initiale-univers_college.xml.xml"
+output = "output/ideo_actions_college"
+type = "generic"
+description = "Actions formation collège"
+
+# Fichier découpé en 2 parties car > 50MB
+# Utilisation du wildcard * pour traiter toutes les parties automatiquement
+[conversions.actions_lycee]
+file = "files/ideo-actions_de_formation_initiale-univers_lycee_part*.xml"
+output = "output/ideo_actions_lycee"
+type = "generic"
+description = "Actions formation lycée"
+
+# Fichier découpé en 2 parties car > 50MB
+# Les wildcards permettent de fusionner automatiquement les données
+[conversions.actions_superieur]
+file = "files/ideo-actions_de_formation_initiale-univers_enseignement_superieur_part*.xml"
+output = "output/ideo_actions_superieur"
+type = "generic"
+description = "Actions formation supérieur"
+
+# ============================================================================
+# AUTRES DONNÉES IDEO
+# ============================================================================
+
+[conversions.dispositifs]
+file = "files/ideo-actions_de_dispositif.xml"
+output = "output/ideo_dispositifs"
+type = "generic"
+description = "Dispositifs"
+
+[conversions.specialites]
+file = "files/ideo-enseignements_de_specialite_de_premiere_generale.xml.xml"
+output = "output/ideo_specialites_premiere"
+type = "generic"
+description = "Spécialités première"
+
+[conversions.optionnels]
+file = "files/ideo-enseignements_optionnels_de_seconde_generale_et_technologique.xml.xml"
+output = "output/ideo_optionnels_seconde"
+type = "generic"
+description = "Optionnels seconde"
+
+[conversions.langues]
+file = "files/ideo-langues_au_college.xml.xml"
+output = "output/ideo_langues"
+type = "generic"
+description = "Langues au collège"
+
+[conversions.structures_secondaire]
+file = "files/ideo-structures_denseignement_secondaire.xml"
+output = "output/ideo_structures_secondaire"
+type = "generic"
+description = "Structures secondaire"
+
+[conversions.structures_superieur]
+file = "files/ideo-structures_denseignement_superieur.xml.xml"
+output = "output/ideo_structures_superieur"
+type = "generic"
+description = "Structures supérieur"
+
+[conversions.certifications]
+file = "files/table_de_passage_codes_certifications_et_formations.xml.xml"
+output = "output/ideo_certifications"
+type = "generic"
+description = "Table certifications"
+
+# ============================================================================
+# NOTES SUR LES WILDCARDS
+# ============================================================================
+# 
+# Quand utiliser les wildcards (part*):
+# - Fichiers XML découpés avec split_large_xml.py
+# - Pattern: nom_fichier_part*.xml
+# - Toutes les parties sont fusionnées automatiquement
+# - Exemple: lycee_part01.xml + lycee_part02.xml = 1 dossier unifié
+#
+# Avantages:
+# - Respect des limites GitHub (< 50MB)
+# - Conversion transparente (l'utilisateur ne voit qu'un résultat)
+# - Pas besoin de modifier le code pour ajouter/retirer des parties
+# ============================================================================
