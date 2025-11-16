@@ -27,3 +27,5 @@ Thumbs.db
 # Temporaires
 *.tmp
 *.bak
+# Dossier de sortie (à générer localement)
+output/
