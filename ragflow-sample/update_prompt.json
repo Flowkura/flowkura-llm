@@ -1,0 +1,29 @@
+{
+  "name": "Diplomeo Dev",
+  "dialog_id": "d110c95bfbfc11f0861202420a000115",
+  "kb_ids": [],
+  "llm": {
+    "model_name": "Qwen2.5-7B-Instruct",
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "presence_penalty": 0.4,
+    "frequency_penalty": 0.7,
+    "max_tokens": 2048
+  },
+  "prompt_config": {
+    "similarity_threshold": 0.2,
+    "keywords_similarity_weight": 0.3,
+    "top_n": 6,
+    "variables": [
+      {
+        "key": "knowledge",
+        "optional": true
+      }
+    ],
+    "empty_response": "Désolé, je n'ai pas trouvé d'information pertinente dans la base de connaissance.",
+    "opener": "Bonjour ! Je suis ton conseiller d'orientation. Comment puis-je t'aider aujourd'hui ?",
+    "show_quote": false,
+    "prompt": "",
+    "system": ""
+  }
+}

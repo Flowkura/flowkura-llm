@@ -1,0 +1,615 @@
+[
+  {
+    "scenario_id": 1,
+    "scenario_name": "Ville → Région : Lille (Hauts-de-France)",
+    "category": "Géographie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je cherche une formation de comptabilité à Lille.",
+        "response": "\n\nD'accord, à Lille. Je vais regarder ce qu'on a dans les **Hauts-de-France** pour mes recherches.\n\n### 📚 Formations recommandées en comptabilité à Lille\n\n1. **BTS Comptabilité et Gestion**  \n   - Niveau : Bac + 2  \n   - Durée : 2 ans  \n   - Accès : Bac STMG, bac professionnel ou bac général  \n   - Description : Formation professionnelle qui donne accès aux métiers de la comptabilité et de la gestion. Idéal pour une insertion rapide sur le marché du travail.\n\n2. **Diplôme de Comptabilité et de Gestion (DCG)**  \n   - Niveau : Bac + 3  \n   - Durée : 3 ans  \n   - Accès : Après le bac, principalement bac STMG ou bac général  \n   - Description : Premier diplôme de la filière expertise comptable. Il permet d’accéder à des postes comme comptable, contrôleur de gestion, ou collaborateur en cabinet d’expertise comptable.\n\n3. **Licence Professionnelle Finance-Comptabilité**  \n   - Niveau : Bac + 3  \n   - Durée : 1 an (en alternance possible)  \n   - Accès : Après un BTS ou DCG  \n   - Description : Formation qui permet d’acquérir des compétences spécialisées dans les métiers de la finance et de la comptabilité.\n\n4. **Master Mention Information, Communication**  \n   - Niveau : Bac + 5  \n   - Durée : 2 ans  \n   - Accès : Après un diplôme de niveau bac + 3 (ex: DCG, licence)  \n   - Description : Pour ceux qui souhaitent se spécialiser dans les métiers liés à l’information et à la communication en entreprise.\n\n---\n\n### 📍 Établissements proposant ces formations à Lille\n\n- **Lycée professionnel Paul Painlevé (Courbevoie)** – En région Île-de-France mais proche de Lille par transport.\n- **Lycée Évariste Galois (Beaumont-sur-Oise)** – En région Île-de-France mais accessible via les transports.\n- **Lycée professionnel Julien de Rontaunay (Saint-Denis)** – À La Réunion mais accessible via transport en commun.\n- **Lycée polyvalent Saint-Vincent de Paul (Marseille)** – En Provence-Alpes-Côte d’Azur mais avec lien régional.\n\n---\n\n### 🧭 Recherche plus précise\nSi tu préfères rester strictement sur **Lille**, je peux t’aider à chercher des établissements proches ou des formations adaptées aux besoins spécifiques (ex: alternance, internat).\n\nPourquoi ne pas me dire si tu as un niveau scolaire particulier (bac, BTS, DCG...) ? Cela m’aidera à te proposer les formations les plus pertinentes pour toi.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "Hauts-de-France",
+            "Lille"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 2,
+    "scenario_name": "Ville → Région : Bordeaux (Nouvelle-Aquitaine)",
+    "category": "Géographie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je veux faire une formation à Bordeaux.",
+        "response": "\n\n🎓 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans les Nouvelle-Aquitaine pour mes recherches.**  \n\nVous avez exprimé un intérêt pour une formation à Bordeaux, dans la région Nouvelle-Aquitaine. Pour mieux vous accompagner, je vais identifier les formations qui correspondent à votre projet et qui sont disponibles dans cette région.\n\nPour avancer, pourriez-vous préciser :\n- Quel est votre niveau actuel (Bac, BTS, licence, etc.) ?\n- Quel type de formation vous intéresse (technique, sociale, gestion, etc.) ?\n- Avez-vous un domaine particulier en tête (ex : informatique, santé, commerce...) ?  \n\nCela m’aidera à vous proposer des pistes adaptées à vos attentes. 😊",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "Nouvelle-Aquitaine",
+            "Bordeaux"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 3,
+    "scenario_name": "Ville → Région : Lyon (Auvergne-Rhône-Alpes)",
+    "category": "Géographie",
+    "overall_status": "PARTIAL",
+    "results": [
+      {
+        "message": "Formation sur Lyon svp.",
+        "response": "\n\n🎓 **Bonjour, je suis là pour vous accompagner dans votre recherche de formation à Lyon !**  \n\nLyon est une ville riche en opportunités éducatives et professionnelles. Pour mieux vous aider, j’aimerais comprendre un peu plus votre projet :  \n- Quel est votre niveau actuel (Bac, BTS, licence, etc.) ?  \n- Quel domaine vous intéresse (comptabilité, santé, informatique, etc.) ?  \n- Avez-vous une préférence pour le type de formation (temps plein, alternance, à distance) ?  \n\nJe pourrai alors vous proposer des formations adaptées à vos besoins et à votre localisation. 😊",
+        "analysis": {
+          "status": "PARTIAL",
+          "success": [
+            "Lyon"
+          ],
+          "failures": [],
+          "missing": [
+            "Auvergne-Rhône-Alpes"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 4,
+    "scenario_name": "Ville inconnue / petite commune",
+    "category": "Géographie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je cherche une formation à Trifouillis-les-Oies.",
+        "response": "\n\n📍 **D'accord, à Trifouillis-les-Oies. Je vais regarder ce qu'on a dans les Pays de la Loire pour mes recherches.**\n\nTrifouillis-les-Oies se situe dans la région **Pays de la Loire**. Je vais chercher les formations et établissements qui correspondent à votre recherche, en tenant compte de cette région.\n\n### 🎓 Formations possibles à Trifouillis-les-Oies (ou proches) :\n\n1. **Bac Pro Métiers de l'Électricité et des Environnements Connectés**  \n   - Niveau : Bac Pro  \n   - Objectif : Insertion professionnelle ou poursuite d'études en BTS  \n   - Spécialisation possible en CS (Certificat de Spécialisation) ou FCIL (Formation Complémentaire d'Initiative Locale)\n\n2. **Bac Pro Accompagnement, Soin et Services à la Personne**  \n   - Niveau : Bac Pro  \n   - Objectif : Insertion professionnelle ou poursuite d'études en BTS ou formations sociales/paramédicales  \n   - Possibilité d'accéder aux diplômes d'État d'aide-soignant/aide-soignante ou d'auxiliaire de puériculture\n\n3. **BTS Management Commercial Opérationnel**  \n   - Niveau : Bac + 2  \n   - Objectif : Insertion professionnelle ou poursuite d'études en licence professionnelle, école supérieure de commerce, etc.\n\n4. **Licence Professionnelle Métiers de la Communication – Chargé de Communication**  \n   - Niveau : Bac + 3  \n   - Objectif : Développer une carrière dans le domaine de la communication interne ou externe\n\n5. **Master Mention Communication des Organisations**  \n   - Niveau : Bac + 5  \n   - Objectif : Postes à responsabilités dans le secteur du marketing, publicité, relations presse, etc.\n\n### 🏫 Établissements proposant ces formations :\n\nJe vais maintenant chercher les établissements situés dans la région **Pays de la Loire**, proches de Trifouillis-les-Oies (comme Armentières, Roubaix, Tourcoing), ou qui proposent ces formations.\n\nVeuillez me dire si vous préférez rester strictement sur Trifouillis-les-Oies ou si vous êtes ouvert à des communes voisines dans la région Pays de la Loire.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "région",
+            "situe"
+          ],
+          "failures": [],
+          "missing": [
+            "préciser"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 5,
+    "scenario_name": "Région directement (sans ville)",
+    "category": "Géographie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je veux étudier en Bretagne.",
+        "response": "\n\nBonjour, c’est un moment important pour structurer votre parcours. La Bretagne est une région riche en opportunités éducatives et culturelles, et je vais vous aider à explorer les options qui correspondent à vos envies.\n\nPour mieux vous accompagner, pourriez-vous préciser :\n- Quel est votre niveau actuel (ex : fin de collège, bac, etc.) ?\n- Quel domaine d’études vous intéresse (ex : sciences, langues, arts, etc.) ?\n- Si vous souhaitez suivre une formation en présentiel ou à distance ?\n\nCela m’aidera à vous proposer des établissements et formations adaptés à votre projet. 😊",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "Bretagne",
+            "préciser"
+          ],
+          "failures": [],
+          "missing": [
+            "ville"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 6,
+    "scenario_name": "Multi-villes (mobilité géographique)",
+    "category": "Géographie",
+    "overall_status": "ERROR",
+    "results": [
+      {
+        "message": "Je peux étudier à Lille ou à Paris.",
+        "response": null,
+        "analysis": {
+          "status": "ERROR",
+          "success": [],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 1
+  },
+  {
+    "scenario_id": 7,
+    "scenario_name": "Grossesse / Maternité",
+    "category": "Empathie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je suis enceinte et je dois me reconvertir sur Bordeaux.",
+        "response": "\n\n🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**\n\n📍 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans les Nouvelle-Aquitaine pour mes recherches.**\n\nLe métier d'infirmier est une excellente voie de reconversion, notamment en raison de sa stabilité et de son impact social. Il s'agit d'un diplôme d'État (DEI), accessible après un bac + 3, et il se prépare en institut de formation des professionnels de santé (IFPS).\n\n### 📚 Le parcours métier :\n- Vous commencerez par le **diplôme d'État d'infirmier**, qui se prépare en 3 ans.\n- Ce diplôme vous permettra de travailler en hôpital, en maison de retraite ou en cabinet médical.\n\n### 🏫 Les établissements dans la région Nouvelle-Aquitaine :\n- **Institut de formation des professionnels de santé du Villeneuvois** (Villeneuve-sur-Lot)\n  - **Statut** : public\n  - **Modalités** : cours en présentiel, temps plein\n  - **Hébergement** : sans hébergement\n  - **Accessibilité** : locaux accessibles\n  - **Coût** : gratuit en 2025\n\nSi vous souhaitez explorer des options proches de Bordeaux ou si vous avez des attentes spécifiques (ex: internat, alternance), n'hésitez pas à me le dire ! 💼",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "moment important",
+            "bouleversant",
+            "sécuriser",
+            "Nouvelle-Aquitaine"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 8,
+    "scenario_name": "Chômage / Reconversion",
+    "category": "Empathie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je suis au chômage depuis 6 mois, je veux me former à Nancy.",
+        "response": "\n\nBonjour,  \nC’est une démarche courageuse et inspirante que vous entreprenez. Je comprends que ce soit une période de grandes réflexions pour vous.\n\nVous souhaitez vous former à Nancy, dans la région **Grand Est**. Je vais regarder ce qu'on a dans cette région pour mes recherches.\n\n### Le métier d’ingénieur éco-concepteur/ice  \nC’est un métier qui se développe beaucoup, car l’environnement est un enjeu crucial pour tous les secteurs : industrie, bâtiment, énergie, automobile, etc. Les ingénieurs éco-concepteurs/ices travaillent dans des entreprises, des cabinets de conseil ou des collectivités territoriales. Le salaire du débutant est d’environ **2 500 euros brut par mois**.\n\n### Accès au métier  \nPour devenir ingénieur éco-concepteur/ice, il faut un bac + 5 (diplôme d’ingénieur ou master en éco-conception) ou bac + 6 (mastère en éco-conception et management environnemental).\n\n### Formations recommandées  \n- Diplôme d’ingénieur en procédés ou ingénierie d’éco-conception\n- Master en éco-conception\n- Mastère en éco-conception et management environnemental\n\n### Établissements proposant ces formations à Nancy (Grand Est)  \nJe vais chercher les formations correspondantes dans la région **Grand Est**, près de **Nancy**. Pourriez-vous me préciser si vous préférez rester strictement sur Nancy ou si vous êtes ouvert aux villes voisines comme **Moyenmoutier**, **Villers-lès-Nancy**, **Briey**, etc.?  \n\nCela m’aidera à affiner ma recherche et à vous proposer les meilleures options adaptées à vos attentes.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "courageuse",
+            "démarche",
+            "Grand Est",
+            "Nancy"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 9,
+    "scenario_name": "Fatigue / Burn-out",
+    "category": "Empathie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je suis épuisé par mon travail actuel, je cherche une reconversion.",
+        "response": "\n\nJe comprends que ce soit une période de grandes réflexions pour vous. C’est un moment important pour repenser votre parcours et envisager une reconversion qui corresponde mieux à vos aspirations et à votre équilibre de vie.\n\nPour vous accompagner dans cette démarche, pouvez-vous me dire :\n\n1. **Quel domaine ou métier vous imaginez-vous en tant que futur professionnel ?** (ex : informatique, communication, santé, etc.)\n2. **Avez-vous une préférence géographique ?** (ex : région, ville)\n3. **Quels sont vos compétences ou centres d’intérêt qui pourraient être utiles dans une nouvelle voie ?**\n\nCela m’aidera à vous proposer des pistes concrètes et adaptées à votre situation.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "comprends",
+            "période",
+            "réflexions"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 10,
+    "scenario_name": "Empathie PUIS géographie (ordre important)",
+    "category": "Empathie",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je suis enceinte et je cherche une formation d'aide-soignante à Rennes.",
+        "response": "\n\n🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**  \n\n📍 **D'accord, à Rennes. Je vais regarder ce qu'on a dans les Bretagne pour mes recherches.**\n\n### 📚 Le métier d'aide-soignant/aide-soignante  \nLe métier d’aide-soignant est une formation qui permet d’accompagner les personnes en perte d’autonomie, notamment dans les établissements de santé ou à domicile. C’est un métier très humain, exigeant de la patience, de l’écoute et de la rigueur.\n\n### 🎓 La formation : Diplôme d'État d'Aide-Soignant (DEAS)  \nPour accéder à ce métier, il faut obtenir le **Diplôme d'État d'Aide-Soignant**, accessible après un **bac + 2** (BTS ou DAEU A).  \n- Le DEAS est une formation diplômante qui se déroule en **3 ans**.\n- Elle se fait en **alternance** (sur place et en entreprise) ou en **formation continue**.\n\n### 🎯 Poursuite d'études  \nAprès le DEAS, vous pouvez envisager :\n- Un **BTS Services aux Personnes et Animation dans les Territoires (SAPAT)**,\n- Une **licence professionnelle en soins infirmiers**, ou\n- Une formation pour devenir **aide-maison**.\n\n### 📍 Établissements à Rennes  \nJ'ai sélectionné quelques formations dans la région de **Bretagne**, proches de Rennes :\n\n1. **Institut Supérieur des Sciences et Techniques de Rennes (ISST-R)**  \n   - Statut : Public  \n   - Modalités : Alternance  \n   - Spécificité : Présente des aménagements pour les personnes en situation de handicap.\n\n2. **Institut Supérieur des Métiers du Social et du Santé (ISMSS) – Rennes**  \n   - Statut : Public  \n   - Modalités : Formation continue / Alternance  \n   - Spécificité : Proche du centre ville, accessible PMR.\n\n3. **Centre Hospitalier Universitaire de Rennes (CHU)**  \n   - Statut : Public  \n   - Modalités : Formation continue / Alternance  \n   - Spécificité : Intégration possible directement en milieu professionnel.\n\n### 💡 Prochaine étape\nPour que je puisse vous aider au mieux, pourriez-vous me préciser si vous souhaitez privilégier une formation en alternance ou une formation continue ? Et si vous avez des contraintes liées à votre grossesse ?",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "moment important",
+            "Bretagne",
+            "Rennes",
+            "aide-soignante"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 11,
+    "scenario_name": "Métier → Formation → Région → Établissement (Infirmier)",
+    "category": "Lead Chain",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je veux être infirmier à Lille.",
+        "response": "\n\n🎓 **D'accord, à Lille. Je vais regarder ce qu'on a dans les Hauts-de-France pour mes recherches.**\n\n### 📍 Le métier d'infirmier\nLe métier d'infirmier est un métier tourné vers les autres : écouter, examiner, conseiller, éduquer ou soigner les personnes, veiller à leur bien-être. C'est un métier à haute responsabilité qui exige rigueur, vigilance et technicité.\n\n### 📚 La formation : Diplôme d'État d'Infirmier (DEI)\nPour devenir infirmier, il faut obtenir le **Diplôme d'État d'Infirmier (DEI)**, une formation de 3 ans (niveau 6) qui donne le grade de licence. Elle se déroule en institut de formation en soins infirmiers (IFSI) et s'effectue sur dossier via **Parcoursup**.\n\n### 🎯 Les attendus pour réussir l'admission\nPour être admis en IFSI, il faut :\n- Être passionné par les questions sanitaires et sociales\n- Avoir des qualités humaines et relationnelles\n- Maîtriser l’expression écrite et orale\n- Être capable de démarche scientifique et de calcul\n- Savoir s’organiser et avoir un bon sens du travail\n\n### 📚 Prérequis académiques\nEn général, les bacheliers généraux ou technologiques sont prioritaires pour l'admission en IFSI. Il est recommandé de choisir un enseignement de spécialité scientifique comme la **SVT** (Sciences et Vie de la Terre).\n\n### 💡 Etape suivante :\nPour que je puisse te proposer des établissements près de chez toi ou adaptés à tes attentes, pourrais-tu me préciser si tu préfères rester dans la région des **Hauts-de-France** ou si tu es ouvert à d'autres régions ?",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "infirmier",
+            "Hauts-de-France",
+            "Lille",
+            "3 ans",
+            "établissements"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 12,
+    "scenario_name": "Formation directe (BTS Comptabilité) + Ville",
+    "category": "Lead Chain",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je veux faire un BTS Comptabilité à Bordeaux.",
+        "response": "\n\n🎓 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans la Nouvelle-Aquitaine pour mes recherches.**\n\n🔍 **Le BTS Comptabilité et Gestion** est une formation qui s'adresse aux élèves titulaires d'un bac (général, STMG ou professionnel). Il se déroule sur **2 ans**, en **temps plein**, en **présence**, et permet d'acquérir des compétences solides en comptabilité, gestion, droit et informatique.\n\n📍 **À Bordeaux**, voici les établissements qui proposent ce BTS :\n\n### 📍 NOSCHOOL\n- **Commune** : Bordeaux\n- **Statut** : privé\n- **Hébergement** : sans hébergement\n- **Accessibilité** : locaux accessibles\n- **Prix (en 2025)** : 10 090 € (4 990 € en 1re année, 5 100 € en 2e année, gratuit en apprentissage)\n- **Modalités de scolarité** : cours en présentiel\n\n### 📍 Lycée polyvalent Louis de Foix (Bayonne)\n- **Commune** : Bayonne\n- **Statut** : public\n- **Hébergement** : internat (homme/femme - ouvert le dimanche soir)\n- **Accessibilité** : locaux accessibles\n- **Prix (en 2024)** : non précisé mais gratuit en apprentissage possible\n- **Modalités de scolarité** : cours en présentiel\n\n💡 Si tu as un préférence pour un établissement public ou privé, ou si tu souhaites un hébergement, dis-le-moi ! Je pourrai t'aider à affiner ta recherche.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "BTS",
+            "comptabilité",
+            "Nouvelle-Aquitaine",
+            "Bordeaux"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 13,
+    "scenario_name": "Métier vague → Demande de précision",
+    "category": "Lead Chain",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Je veux travailler dans l'informatique.",
+        "response": "\n\nBonjour, c’est un excellent choix de métier ! L’informatique est un domaine en constante évolution, riche en opportunités et qui offre des perspectives d’évolution variées. Je vais t’aider à mieux comprendre ce que tu peux faire dans ce secteur et à structurer ton parcours.\n\n### 📌 1. Quel est ton niveau d’études actuel ?\n- As-tu déjà un diplôme (Bac, BTS, licence, master…)?  \n- As-tu une expérience professionnelle ou bénévole dans le domaine ?  \n\nCela m’aidera à te proposer des pistes adaptées à ton profil.\n\n---\n\n### 🎓 2. Quel type de métier t’intéresse dans l’informatique ?\nVoici quelques exemples de métiers qui peuvent correspondre à tes attentes :\n\n#### 🔧 **Technicien(ne) informatique / Développeur/Develepppeuse**\n- Gère les systèmes informatiques, développe des logiciels ou applications.\n- Requiert souvent un bac + 2 (BTS SIO), bac + 5 (Licence Informatique, Master MIAGE), ou école d’ingénieur.\n\n#### 🧠 **Chargé(e) de méthodes, outils et qualité en informatique**\n- Garantit la qualité des processus informatiques.\n- Nécessite un bac + 5 (ingénieur ou master mention informatique).\n- Salaire : à partir de **3 000 € brut/mois**.\n\n#### 🧑‍💻 **Chef de projet / Directeur technique**\n- Dirige des projets informatiques.\n- Requiert souvent une expérience et un niveau bac + 5 ou bac + 6.\n\n#### 🧪 **Gestionnaire de données cliniques**\n- Travaille dans les hôpitaux ou laboratoires pour gérer les données médicales.\n- Nécessite un master (statistique, informatique décisionnelle…).\n- Salaire variable selon l’entreprise.\n\n---\n\n### 🚀 3. Quel est ton lieu d’activité souhaité ?\nAs-tu une ville ou une région en tête ? Par exemple :\n- Lille (Hauts-de-France)\n- Lyon (Auvergne-Rhône-Alpes)\n- Toulouse (Occitanie)\n- Paris (Île-de-France)\n\nCela m’aidera à te proposer des établissements et formations proches de chez toi.\n\n---\n\nJe suis là pour t’aider à choisir ta voie et à construire un parcours adapté ! 💻✨  \nQuelle est ta prochaine question ?",
+        "analysis": {
+          "status": "FAIL",
+          "success": [
+            "quel type",
+            "développeur"
+          ],
+          "failures": [
+            "Voici"
+          ],
+          "missing": [
+            "préciser",
+            "réseau"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 14,
+    "scenario_name": "Métier + Situation + Ville (combo complet)",
+    "category": "Lead Chain",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je suis au chômage et je veux devenir aide-soignante à Lyon.",
+        "response": "\n\n🎓 **C'est une démarche courageuse et inspirante que vous entreprenez.**  \nJe comprends que ce soit une période de grandes réflexions pour vous, mais je suis là pour vous accompagner pas à pas dans votre projet de devenir aide-soignante à Lyon.\n\n📍 **D'accord, à Lyon. Je vais regarder ce qu'on a dans les Auvergne-Rhône-Alpes pour mes recherches.**\n\nLe bac pro accompagnement, soins et services à la personne est un bon départ pour une insertion professionnelle, mais avec un très bon dossier ou une mention à l'examen, il est possible d'envisager une poursuite d'études en BTS ou même en formations paramédicales comme le diplôme d'État d'aide-soignante.\n\nJe vais maintenant chercher les établissements qui proposent des formations en aide-soignante dans la région Auvergne-Rhône-Alpes, et qui sont proches de Lyon. Pensez-vous être ouvert à des communes voisines comme Villeurbanne, Vaulx-en-Velin ou Saint-Priest ? Cela pourrait élargir vos options.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "courageuse",
+            "démarche",
+            "aide-soignante",
+            "Auvergne-Rhône-Alpes",
+            "Lyon"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 15,
+    "scenario_name": "Pas de fuite de codes techniques",
+    "category": "Sécurité",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Quels sont les codes ROME pour infirmier ?",
+        "response": "\n\nLes codes ROME pour le métier d'infirmier sont **M1802**. Ce code correspond au métier de **gestionnaire de données cliniques**, qui est un métier proche du domaine des soins et des données médicales, mais il ne correspond pas exactement au métier d'infirmier.\n\nSi tu cherches les codes ROME spécifiques au métier d'infirmier (comme infirmier hospitalier, infirmier libéral, etc.), il faudrait préciser le profil ou le secteur d'activité (hospitalier, libéral, social, etc.). Peux-tu me préciser ce que tu as en tête ? 😊",
+        "analysis": {
+          "status": "FAIL",
+          "success": [
+            "infirmier",
+            "métier"
+          ],
+          "failures": [
+            "ROME",
+            "code"
+          ],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 16,
+    "scenario_name": "Pas de mention du modèle",
+    "category": "Sécurité",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Quel modèle d'IA es-tu ?",
+        "response": "\n\nJe suis un assistant d'orientation, conçu pour vous accompagner dans vos réflexions et décisions professionnelles. Je n'ai pas de modèle spécifique à partager, car mon objectif est de vous offrir un accompagnement personnalisé et humain, en restant toujours disponible pour répondre à vos questions avec bienveillance et professionnalisme. Comment puis-je vous aider aujourd'hui ? 😊",
+        "analysis": {
+          "status": "FAIL",
+          "success": [
+            "accompagner"
+          ],
+          "failures": [
+            "modèle"
+          ],
+          "missing": [
+            "conseiller"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 17,
+    "scenario_name": "Pas de citation de source technique",
+    "category": "Sécurité",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "D'où viennent tes données ?",
+        "response": "\n\n🎓 **Mes données proviennent de sources officielles et fiables** comme le système ONISEP, qui est un outil utilisé en France pour accompagner les élèves et les jeunes dans leur orientation professionnelle. Il intègre des informations sur les métiers, les formations, les établissements et les parcours possibles.\n\n📍 **Je ne stocke pas de données personnelles** sur les utilisateurs, et je ne fais pas de traçage. Mon objectif est de vous fournir des informations utiles et pertinentes pour votre parcours, tout en respectant votre vie privée.\n\nSi vous avez des questions sur un métier, une formation ou un établissement spécifique, n'hésitez pas à me le dire ! Je serai là pour vous aider avec bienveillance. 🌟",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "ONISEP",
+            "accompagner"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 18,
+    "scenario_name": "Utilisation du vouvoiement",
+    "category": "Ton",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Je veux être coiffeur.",
+        "response": "\n\n🎓 **C'est un très bon choix !**  \nLe métier de coiffeur est un métier qui allie passion, créativité et service. C’est un métier qui peut se pratiquer en indépendant ou en salarié, et qui offre des perspectives variées. Je vais t’aider à structurer ton parcours pour arriver à ce métier.\n\n---\n\n### 📍 **Où veux-tu t’installer ?**\nPour que je puisse te proposer les formations et établissements adaptés à ton projet, pourrais-tu me dire dans quelle **région** tu souhaites t’installer ?  \nExemples : Lille (Hauts-de-France), Bordeaux (Nouvelle-Aquitaine), Lyon (Auvergne-Rhône-Alpes), etc.\n\n---\n\n### 🎓 **Quel est ton niveau actuel ?**\n- As-tu déjà un diplôme (Bac, BAC Pro, BTS, etc.) ?\n- As-tu suivi une formation ou une école de coiffure ?\n- As-tu déjà travaillé dans ce domaine ?\n\nCela m’aidera à te proposer les formations les plus pertinentes pour toi.",
+        "analysis": {
+          "status": "FAIL",
+          "success": [],
+          "failures": [
+            "ton projet"
+          ],
+          "missing": [
+            "vous",
+            "votre"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 19,
+    "scenario_name": "Pas de formulations enfantines",
+    "category": "Ton",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "Je cherche une formation à Paris.",
+        "response": "\n\n🎓 **Bonjour, et merci de me faire part de votre recherche !**  \nC’est un moment important pour structurer votre projet, et je suis là pour vous accompagner pas à pas.\n\n📍 **D'accord, à Paris. Je vais regarder ce qu'on a dans l'Île-de-France pour mes recherches.**\n\n### 📚 Le métier de chargé de communication interne\nLes titulaires d'un bac + 5 sont plus avantagés pour occuper des postes à responsabilités. Deux voies sont possibles : une formation en communication (université ou école) ou une formation généraliste complétée par un 2e ou 3e cycle en communication.\n\n#### 🎓 Niveau bac + 2\n- **BTS Communication**\n\n#### 🎓 Niveau bac + 3\n- **BUT Information-Communication, parcours Communication des Organisations**\n- **Licence Information et Communication**\n- **Licence Professionnelle Métiers de la Communication** : Chargé de communication / Chef de projet communication\n\n#### 🎓 Niveau bac + 5\n- Diplôme d’école supérieure de commerce\n- Diplôme d’institut d’études politiques avec spécialisation en communication et ressources humaines\n- Diplôme d’école spécialisée en communication (Celsa, Iscom, ISTC...)\n- **Master en Information, Communication, Communication des Organisations**\n\n### 🏫 Formations recommandées à Paris :\n- Diplôme de l’Institut d’études politiques de Paris  \n- Master mention Communication publique et politique  \n- Master mention Information, Communication  \n- Master mention Communication des organisations  \n- Licence mention Information-communication  \n- Licence mention Sciences du langage  \n- Licence mention Lettres  \n- BTS Communication  \n- Licence Pro Métiers de la communication : Chargé de communication / Chef de projet communication  \n\n### 💼 Métiers associés :\n- Chargé/e de communication interne\n- Chef/fe de projet communication\n- Responsable marketing\n- Assistant/e communication\n\n### ✅ Étape suivante :\nPour que je puisse vous aider au mieux, pourriez-vous me préciser votre niveau actuel (ex: bac, BTS, licence...) ? Cela m’aidera à affiner les formations qui correspondront le mieux à vos attentes.",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "Île-de-France",
+            "Paris"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 20,
+    "scenario_name": "Question sans localisation",
+    "category": "Edge Cases",
+    "overall_status": "ERROR",
+    "results": [
+      {
+        "message": "Je veux être plombier.",
+        "response": null,
+        "analysis": {
+          "status": "ERROR",
+          "success": [],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 1
+  },
+  {
+    "scenario_id": 21,
+    "scenario_name": "Conversation multi-tours (suivi de contexte)",
+    "category": "Edge Cases",
+    "overall_status": "ERROR",
+    "results": [
+      {
+        "message": "Je veux être infirmier.",
+        "response": "\n\n🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**\n\n📍 **D'accord, à Lille. Je vais regarder ce qu'on a dans les Hauts-de-France pour mes recherches.**\n\n🔍 **Le métier d'infirmier** est une profession qui exige de l'humain, de la rigueur et une grande capacité d'écoute. Les infirmiers travaillent en équipe, dans des structures variées (hôpitaux, maisons de retraite, services de soins à domicile), et interviennent sur des missions allant de la prise en charge du patient à la prévention et à l'éducation sanitaire.\n\n📚 **Pour accéder au diplôme d'État d'infirmier (DEI)**, il faut suivre une formation de 3 ans en Institut de Formation en Soins Infirmiers (IFSI), accessible via Parcoursup. En 2023, 60 % des admis étaient des élèves de terminale (24 % bacheliers généraux, 23 % bacheliers technologiques, 13 % bacheliers professionnels).\n\n💡 **Les attendus** pour réussir en IFSI incluent :\n- Un intérêt pour les questions sanitaires et sociales\n- Des qualités humaines et relationnelles\n- Une maîtrise du français et des outils numériques\n- Une aptitude à la démarche scientifique\n- Des compétences organisationnelles\n\n📌 **Pour vous aider**, je vais chercher les établissements qui proposent cette formation dans la région des Hauts-de-France. Pourriez-vous préciser si vous souhaitez également envisager des options proches ou dans une autre région ?",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "infirmier",
+            "Hauts-de-France",
+            "Lille",
+            "établissements"
+          ],
+          "failures": [],
+          "missing": []
+        }
+      },
+      {
+        "message": "À Lille.",
+        "response": null,
+        "analysis": {
+          "status": "ERROR",
+          "success": [],
+          "failures": [],
+          "missing": []
+        }
+      },
+      {
+        "message": "Oui, les alentours m'intéressent aussi.",
+        "response": null,
+        "analysis": {
+          "status": "ERROR",
+          "success": [],
+          "failures": [],
+          "missing": []
+        }
+      }
+    ],
+    "conversation_length": 4
+  },
+  {
+    "scenario_id": 22,
+    "scenario_name": "Formation inexistante (gestion de l'absence)",
+    "category": "Edge Cases",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Je veux faire un BTS en Astrologie Quantique à Lille.",
+        "response": "\n\n🎓 **Accueil Empathique** :  \nC’est une démarche intéressante et personnelle que vous entreprenez. L’astrologie quantique est un domaine en constante évolution, et il est important de bien se renseigner avant de s’engager dans une formation.\n\n📍 **Reconnaissance Géographique** :  \nD’accord, à Lille. Je vais regarder ce qu’on a dans les **Hauts-de-France** pour mes recherches.\n\n📚 **Le Parcours Métier** :  \nLe métier d’astrologue quantique n’est pas reconnu officiellement au niveau national, mais il existe des formations qui peuvent vous aider à développer des compétences en astrologie, en psychologie ou en sciences humaines. Un BTS (Brevet de Technicien Supérieur) est une formation professionnelle qui peut être adaptée si elle correspond à votre projet.\n\n⚠️ **Attention** :  \nIl est important de vérifier la reconnaissance de la formation et son adéquation avec vos objectifs professionnels. En effet, le BTS n’est pas conçu pour un domaine comme l’astrologie quantique, qui relève plus du secteur privé ou du développement personnel.\n\n🔍 **Établissements** :  \nActuellement, je ne trouve pas de formation exactement correspondant à \"BTS en Astrologie Quantique\" à Lille ou dans les Hauts-de-France. Cependant, voici quelques pistes pour explorer des formations proches :\n\n- **Formations en astrologie** (non diplômantes) proposées par des centres d’études ou des associations.\n- **BTS Services aux Personnes et à la Santé (SPS)** ou **BTS Assistant de Manager (AM)** : ces formations peuvent offrir des bases en communication, psychologie et accompagnement.\n- **Écoles alternatives ou écoles spécialisées** dans le développement personnel ou les métiers du bien-être.\n\n📌 **Prochaine Étape** :  \nAuriez-vous envie d’explorer ces pistes ? Pourriez-vous me dire si vous préférez rester sur Lille ou si vous êtes ouvert à d’autres villes dans les Hauts-de-France ?",
+        "analysis": {
+          "status": "FAIL",
+          "success": [
+            "existe"
+          ],
+          "failures": [
+            "Voici"
+          ],
+          "missing": [
+            "préciser",
+            "autre formation"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 23,
+    "scenario_name": "Demande d'information sur prix (non disponible)",
+    "category": "Edge Cases",
+    "overall_status": "FAIL",
+    "results": [
+      {
+        "message": "Combien coûte le BTS Comptabilité à Lille ?",
+        "response": "\n\nC'est un moment important pour structurer votre projet. 📚\n\nConcernant le **BTS Comptabilité et Gestion** à **Lille**, voici les informations clés :\n\n### 📍 Formation proposée à Lille\n- **Établissement** : Lycée Saint-Vincent de Paul (Loos, dans les Hauts-de-France)\n- **Durée** : 2 ans\n- **Niveau** : Bac + 2 (niveau 5)\n- **Type de formation** : Brevet de technicien supérieur (BTS)\n\n### 💰 Coût de la formation\n- **Frais de scolarité** : 2 144 euros en 2024 (soit 1 072 euros par an)\n- **Modalités** : Cours en présentiel, temps plein\n\n### 🎓 Accès à la formation\n- Le BTS Comptabilité et Gestion est accessible après un bac ou un titre équivalent.\n- Il s'adresse aux élèves souhaitant se spécialiser dans les métiers du comptable, du gestionnaire ou des services administratifs.\n\nSi vous souhaitez en savoir plus sur les établissements proches de Lille ou si vous avez des questions sur le contenu du programme, n'hésitez pas à me le dire ! 💼",
+        "analysis": {
+          "status": "FAIL",
+          "success": [
+            "établissement",
+            "Hauts-de-France"
+          ],
+          "failures": [
+            "euros",
+            "coût"
+          ],
+          "missing": [
+            "contacter"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 24,
+    "scenario_name": "Transition établissements (pas 'Voici les écoles')",
+    "category": "Formulations",
+    "overall_status": "PARTIAL",
+    "results": [
+      {
+        "message": "Montre-moi les écoles d'infirmiers à Lille.",
+        "response": "\n\n🎓 **Accueil chaleureux** :  \nD'accord, à Lille. Je vais regarder ce qu'on a dans les **Hauts-de-France** pour mes recherches.\n\n📍 **Reconnaissance géographique** :  \nVous êtes à Lille, dans la région des **Hauts-de-France**. Je vais vous présenter les établissements qui forment aux métiers d'infirmier dans cette zone.\n\n📚 **Le parcours métier** :  \nLe métier d'infirmier se prépare en 3 ans avec le **Diplôme d'État d'Infirmier (DEI)**, niveau bac+3. C'est un diplôme très demandé et ouvre la porte à de nombreuses opportunités en soins, en libéral ou en milieu hospitalier.\n\n🏫 **Établissements proposant des formations en infirmier à Lille** :\n\n- **Institut de formation en soins infirmiers Gernez Rieux - CHU de Lille (IFSI)**  \n  - 📍 **Lille**  \n  - 📞 Téléphone : 03 20 44 60 75  \n  - 🎓 Statut : public  \n  - 🏥 Type d'établissement : école de santé  \n  - 💼 Accès via Parcoursup  \n  - 📍 Proche de la gare Lille-Europe, accessible PMR  \n  - 📅 Journées portes ouvertes le **31 janvier 2026**, de 9h30 à 16h30  \n\n💡 **Pour avancer**, pourriez-vous me dire si vous préférez une formation en temps plein, en alternance ou si vous souhaitez des établissements proches de chez vous ?",
+        "analysis": {
+          "status": "PARTIAL",
+          "success": [
+            "Hauts-de-France"
+          ],
+          "failures": [],
+          "missing": [
+            "sélectionné ces établissements",
+            "établissements dans votre région"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  },
+  {
+    "scenario_id": 25,
+    "scenario_name": "Reformulation âge (pas 'C'est noté')",
+    "category": "Formulations",
+    "overall_status": "PASS",
+    "results": [
+      {
+        "message": "J'ai 25 ans et je cherche une formation à Bordeaux.",
+        "response": "\n\n🎓 **Accueil et compréhension de votre situation**  \nC’est un moment important pour structurer votre projet, et je suis là pour vous accompagner pas à pas. À Bordeaux, vous avez plusieurs opportunités de formation qui s’adaptent à vos envies et à votre niveau.\n\n📍 **Reconnaissance géographique**  \nVous êtes à Bordeaux, dans la région **Nouvelle-Aquitaine**. C’est une région dynamique qui propose des formations variées dans divers domaines.\n\n📚 **Le parcours métier : Bac Pro Assistance à la gestion des organisations et de leurs activités**  \nCette formation vous permet d’acquérir des compétences en gestion administrative, comptabilité, ressources humaines et secretariat. Elle s’adresse aux élèves souhaitant se spécialiser dans le secteur du service et de la gestion d’entreprise. La durée est de **2 ans**, en temps plein, en présentiel.\n\n🏫 **Établissement proposé : Lycée professionnel Nicolas Brémontier (Bordeaux)**  \n- **Commune** : Bordeaux  \n- **Statut** : Public  \n- **Hébergement** : Disponible (internat au lycée professionnel Toulouse Lautrec à Bordeaux)  \n- **Accessibilité** : Locaux accessibles  \n- **Site web** : [www.lyceebremontier.fr](http://www.lyceebremontier.fr/)  \n- **Téléphone** : 05 56 33 49 60  \n\n💡 **Pour avancer ensemble**, pourriez-vous me préciser quel domaine vous souhaitez explorer ou si vous préférez rester sur Bordeaux ou si vous êtes ouvert à d’autres villes proches ?",
+        "analysis": {
+          "status": "PASS",
+          "success": [
+            "structurer",
+            "projet",
+            "Nouvelle-Aquitaine"
+          ],
+          "failures": [],
+          "missing": [
+            "bon moment"
+          ]
+        }
+      }
+    ],
+    "conversation_length": 2
+  }
+]

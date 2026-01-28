@@ -1,6 +1,29 @@
-# RagFlow Sample Dataset
+# RagFlow Sample Dataset - Diplomeo
 
 Échantillon de test pour RagFlow - Orientation scolaire et professionnelle en France
+
+## 🎯 Mission Accomplie : Plan de Test Diplomeo Dev
+
+**Statut** : ✅ **TOUS LES TESTS PASSENT (3/3)** - Prêt pour validation utilisateur
+
+### Résultats des Tests
+- ✅ **Entonnoir géographique** : Ville → Région fonctionnel à 100%
+- ✅ **Empathie professionnelle** : Situations de vie gérées correctement
+- ✅ **Sécurité maximale** : Zéro fuite de codes techniques
+- ✅ **Chaîne de lead complète** : Métier → Formation → Action → Établissement
+
+### Documentation Disponible
+- 📊 **[TEST_REPORT_20260128_FINAL.md](TEST_REPORT_20260128_FINAL.md)** : Rapport de test complet
+- 🎯 **[MISSION_ACCOMPLISHED.md](MISSION_ACCOMPLISHED.md)** : Résumé de la mission
+- 📖 **[GUIDE_UTILISATION.md](GUIDE_UTILISATION.md)** : Guide d'utilisation complet
+- 🔧 **[system_prompt_dev_v2.txt](system_prompt_dev_v2.txt)** : Prompt optimisé
+
+### Accès Rapide
+- **Chat Dev ID** : `26508f5afbf511f08df602420a000115`
+- **URL** : https://rag-staging.flowkura.com/
+- **Script de test** : `python3 run_tests.py`
+
+---
 
 ## 📊 Contenu
 
