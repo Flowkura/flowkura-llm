@@ -1,0 +1,73 @@
+{
+  "chat_id": "26508f5afbf511f08df602420a000115",
+  "name": "Diplomeo dev",
+  "description": "A helpful Assistant",
+  "status": "1",
+  "language": "English",
+  "prompt_type": "simple",
+  "do_refer": "1",
+  "create_date": "Wed, 28 Jan 2026 10:57:57 GMT",
+  "create_time": 1769569077687,
+  "update_date": "Wed, 28 Jan 2026 10:58:19 GMT",
+  "update_time": 1769569099320,
+  "tenant_id": "e5e61e58f50311f0b15602420a0001d9",
+  "top_k": 20,
+  
+  "note": "Ce chat utilise les paramètres recommandés pour le mode /no_think: Temperature=0.7, TopP=0.8, TopK=20",
+  
+  "llm": {
+    "model_name": "Qwen/Qwen3___VLLM@VLLM",
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "presence_penalty": 0.5,
+    "frequency_penalty": 0.5
+  },
+  
+  "dataset_ids": [
+    "dc762171fb2811f0a03402420a000115",
+    "e1c6982ffb2811f0a05d02420a000115",
+    "e8ad1a3afb2811f09a1f02420a000115",
+    "29b4d83bfb2911f0bbfa02420a000115"
+  ],
+  
+  "datasets_info": [
+    {
+      "id": "dc762171fb2811f0a03402420a000115",
+      "name": "Métiers"
+    },
+    {
+      "id": "e1c6982ffb2811f0a05d02420a000115",
+      "name": "Formations"
+    },
+    {
+      "id": "e8ad1a3afb2811f09a1f02420a000115",
+      "name": "Actions de Formation"
+    },
+    {
+      "id": "29b4d83bfb2911f0bbfa02420a000115",
+      "name": "Établissements"
+    }
+  ],
+  
+  "prompt": {
+    "reasoning": false,
+    "keyword": false,
+    "tts": false,
+    "show_quote": false,
+    "use_kg": false,
+    "refine_multiturn": false,
+    "toc_enhance": false,
+    "cross_languages": [],
+    "empty_response": "",
+    "top_n": 8,
+    "similarity_threshold": 0.2,
+    "keywords_similarity_weight": 0.7,
+    "rerank_model": "BAAI/bge-reranker-v2-m3",
+    "variables": [
+      {
+        "key": "knowledge",
+        "optional": false
+      }
+    ]
+  }
+}

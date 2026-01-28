@@ -1,0 +1,16 @@
+# Salut ! Je suis ton conseiller d'orientation. 👋
+
+### **Regarde ce que je peux faire pour toi :**
+
+* **🔍 Explore un métier**
+    Recherche un métier pour découvrir les missions réelles et les débouchés.
+* **🗺️ Trace ton parcours**
+    Découvre quel diplôme viser, du **CAP au Master**, selon ton profil actuel.
+* **🏫 Trouve ton école ou ton centre de formation**
+    Identifie les établissements disponibles dans ta région.
+* **🤰 Adapte ta formation**
+    Parle-moi de tes contraintes (grossesse, job actuel, vie de famille) pour trouver un rythme flexible.
+
+---
+
+**Dis-moi, dans quelle direction veux-tu orienter ton avenir aujourd'hui ?**

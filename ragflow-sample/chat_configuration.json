@@ -1,0 +1,104 @@
+{
+  "chat_id": "1098c60ff69f11f0965902420a000115",
+  "name": "Diplomeo",
+  "description": "",
+  "status": "1",
+  "language": "English",
+  "prompt_type": "simple",
+  "do_refer": "1",
+  "create_date": "Wed, 21 Jan 2026 15:59:08 GMT",
+  "create_time": 1768982348720,
+  "update_date": "Tue, 27 Jan 2026 15:13:03 GMT",
+  "update_time": 1769497983407,
+  "tenant_id": "e5e61e58f50311f0b15602420a0001d9",
+  "top_k": 2048,
+  
+  "llm": {
+    "model_name": "Qwen/Qwen3___VLLM@VLLM",
+    "temperature": 0.55,
+    "top_p": 0.8,
+    "presence_penalty": 0.5,
+    "frequency_penalty": 0.5
+  },
+  
+  "meta_data_filter": {
+    "method": "disabled"
+  },
+  
+  "datasets": [
+    {
+      "id": "29b4d83bfb2911f0bbfa02420a000115",
+      "name": "Établissements",
+      "description": "Lieux d enseignement avec adresses et coordonnées GPS. Contient 119 établissements avec codes UAI, coordonnées exactes, accessibilité et contact.",
+      "doc_num": 119,
+      "chunk_num": 122,
+      "token_num": 7944,
+      "embd_id": "Snowflake/snowflake-arctic-embed-m-v2.0___VLLM@VLLM",
+      "parser_id": "naive",
+      "similarity_threshold": 0.2,
+      "vector_similarity_weight": 0.3,
+      "pagerank": 0
+    },
+    {
+      "id": "e8ad1a3afb2811f09a1f02420a000115",
+      "name": "Actions de Formation",
+      "description": "Actions concrètes avec lieux, dates et modalités. Contient 120 actions de formation avec géolocalisation GPS, régions, statut public/privé et durée.",
+      "doc_num": 120,
+      "chunk_num": 181,
+      "token_num": 11069,
+      "embd_id": "Snowflake/snowflake-arctic-embed-m-v2.0___VLLM@VLLM",
+      "parser_id": "naive",
+      "similarity_threshold": 0.2,
+      "vector_similarity_weight": 0.3,
+      "pagerank": 0
+    },
+    {
+      "id": "e1c6982ffb2811f0a05d02420a000115",
+      "name": "Formations",
+      "description": "Programmes et diplômes du Bac au Bac+3. Contient 12 formations (Bac général, Bac pro, BTS, Diplômes d État) avec niveaux et types de formation.",
+      "doc_num": 12,
+      "chunk_num": 31,
+      "token_num": 2326,
+      "embd_id": "Snowflake/snowflake-arctic-embed-m-v2.0___VLLM@VLLM",
+      "parser_id": "naive",
+      "similarity_threshold": 0.2,
+      "vector_similarity_weight": 0.3,
+      "pagerank": 0
+    },
+    {
+      "id": "dc762171fb2811f0a03402420a000115",
+      "name": "Métiers",
+      "description": "Fiches métiers détaillées avec variantes de genre pour la recherche inclusive. Contient 9 métiers avec codes ROME et variantes masculin/féminin.",
+      "doc_num": 9,
+      "chunk_num": 46,
+      "token_num": 3329,
+      "embd_id": "Snowflake/snowflake-arctic-embed-m-v2.0___VLLM@VLLM",
+      "parser_id": "naive",
+      "similarity_threshold": 0.2,
+      "vector_similarity_weight": 0.3,
+      "pagerank": 0
+    }
+  ],
+  
+  "prompt": {
+    "reasoning": false,
+    "keyword": false,
+    "tts": false,
+    "show_quote": false,
+    "use_kg": false,
+    "refine_multiturn": false,
+    "toc_enhance": false,
+    "cross_languages": [],
+    "empty_response": "",
+    "top_n": 8,
+    "similarity_threshold": 0.2,
+    "keywords_similarity_weight": 0.7,
+    "rerank_model": "BAAI/bge-reranker-v2-m3___VLLM@VLLM",
+    "variables": [
+      {
+        "key": "knowledge",
+        "optional": false
+      }
+    ]
+  }
+}
