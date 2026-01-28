@@ -1,0 +1,785 @@
+🚀 DÉMARRAGE DE LA SUITE DE TESTS EXHAUSTIVE
+Chat ID: d110c95bfbfc11f0861202420a000115
+Nombre de scénarios: 25
+Catégories: 7
+
+⚠️  AVERTISSEMENT: Cette suite va exécuter 25 scénarios de test.
+Cela peut prendre 10-15 minutes.
+
+
+################################################################################
+# PROGRESSION: 1/25 (4.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #1: Ville → Région : Lille (Hauts-de-France)
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je cherche une formation de comptabilité à Lille.
+
+📥 Réponse:
+
+
+D'accord, à Lille. Je vais regarder ce qu'on a dans les **Hauts-de-France** pour mes recherches.
+
+### 📚 Formations recommandées en comptabilité à Lille
+
+1. **BTS Comptabilité et Gestion**  
+   - Niveau : Bac + 2  
+   - Durée : 2 ans  
+   - Accès : Bac STMG, bac professionnel ou bac général  
+   - ...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: Hauts-de-France, Lille
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 2/25 (8.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #2: Ville → Région : Bordeaux (Nouvelle-Aquitaine)
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux faire une formation à Bordeaux.
+
+📥 Réponse:
+
+
+🎓 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans les Nouvelle-Aquitaine pour mes recherches.**  
+
+Vous avez exprimé un intérêt pour une formation à Bordeaux, dans la région Nouvelle-Aquitaine. Pour mieux vous accompagner, je vais identifier les formations qui correspondent à votre projet...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: Nouvelle-Aquitaine, Bordeaux
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 3/25 (12.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #3: Ville → Région : Lyon (Auvergne-Rhône-Alpes)
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Formation sur Lyon svp.
+
+📥 Réponse:
+
+
+🎓 **Bonjour, je suis là pour vous accompagner dans votre recherche de formation à Lyon !**  
+
+Lyon est une ville riche en opportunités éducatives et professionnelles. Pour mieux vous aider, j’aimerais comprendre un peu plus votre projet :  
+- Quel est votre niveau actuel (Bac, BTS, licence, etc.) ...
+
+
+📊 Analyse:
+   Statut: PARTIAL
+   ✅ Indicateurs de succès trouvés: Lyon
+   ⚠️  Indicateurs manquants: Auvergne-Rhône-Alpes
+
+================================================================================
+RÉSULTAT: PARTIAL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 4/25 (16.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #4: Ville inconnue / petite commune
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je cherche une formation à Trifouillis-les-Oies.
+
+📥 Réponse:
+
+
+📍 **D'accord, à Trifouillis-les-Oies. Je vais regarder ce qu'on a dans les Pays de la Loire pour mes recherches.**
+
+Trifouillis-les-Oies se situe dans la région **Pays de la Loire**. Je vais chercher les formations et établissements qui correspondent à votre recherche, en tenant compte de cette ré...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: région, situe
+   ⚠️  Indicateurs manquants: préciser
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 5/25 (20.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #5: Région directement (sans ville)
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux étudier en Bretagne.
+
+📥 Réponse:
+
+
+Bonjour, c’est un moment important pour structurer votre parcours. La Bretagne est une région riche en opportunités éducatives et culturelles, et je vais vous aider à explorer les options qui correspondent à vos envies.
+
+Pour mieux vous accompagner, pourriez-vous préciser :
+- Quel est votre niveau...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: Bretagne, préciser
+   ⚠️  Indicateurs manquants: ville
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 6/25 (24.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #6: Multi-villes (mobilité géographique)
+Catégorie: Géographie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je peux étudier à Lille ou à Paris.
+⚠️  Erreur lors de l'envoi: HTTPSConnectionPool(host='rag-staging.flowkura.com', port=443): Read timed out. (read timeout=30)
+❌ ERREUR: Pas de réponse du serveur
+
+================================================================================
+RÉSULTAT: ERROR
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 7/25 (28.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #7: Grossesse / Maternité
+Catégorie: Empathie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je suis enceinte et je dois me reconvertir sur Bordeaux.
+
+📥 Réponse:
+
+
+🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**
+
+📍 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans les Nouvelle-Aquitaine pour mes recherches.**
+
+Le métier d'infirmier est une excellente ...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: moment important, bouleversant, sécuriser, Nouvelle-Aquitaine
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 8/25 (32.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #8: Chômage / Reconversion
+Catégorie: Empathie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je suis au chômage depuis 6 mois, je veux me former à Nancy.
+
+📥 Réponse:
+
+
+Bonjour,  
+C’est une démarche courageuse et inspirante que vous entreprenez. Je comprends que ce soit une période de grandes réflexions pour vous.
+
+Vous souhaitez vous former à Nancy, dans la région **Grand Est**. Je vais regarder ce qu'on a dans cette région pour mes recherches.
+
+### Le métier d’...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: courageuse, démarche, Grand Est, Nancy
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 9/25 (36.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #9: Fatigue / Burn-out
+Catégorie: Empathie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je suis épuisé par mon travail actuel, je cherche une reconversion.
+
+📥 Réponse:
+
+
+Je comprends que ce soit une période de grandes réflexions pour vous. C’est un moment important pour repenser votre parcours et envisager une reconversion qui corresponde mieux à vos aspirations et à votre équilibre de vie.
+
+Pour vous accompagner dans cette démarche, pouvez-vous me dire :
+
+1. **Qu...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: comprends, période, réflexions
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 10/25 (40.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #10: Empathie PUIS géographie (ordre important)
+Catégorie: Empathie
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je suis enceinte et je cherche une formation d'aide-soignante à Rennes.
+
+📥 Réponse:
+
+
+🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**  
+
+📍 **D'accord, à Rennes. Je vais regarder ce qu'on a dans les Bretagne pour mes recherches.**
+
+### 📚 Le métier d'aide-soignant/aide-soignante  
+Le...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: moment important, Bretagne, Rennes, aide-soignante
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 11/25 (44.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #11: Métier → Formation → Région → Établissement (Infirmier)
+Catégorie: Lead Chain
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux être infirmier à Lille.
+
+📥 Réponse:
+
+
+🎓 **D'accord, à Lille. Je vais regarder ce qu'on a dans les Hauts-de-France pour mes recherches.**
+
+### 📍 Le métier d'infirmier
+Le métier d'infirmier est un métier tourné vers les autres : écouter, examiner, conseiller, éduquer ou soigner les personnes, veiller à leur bien-être. C'est un métier à ...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: infirmier, Hauts-de-France, Lille, 3 ans, établissements
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 12/25 (48.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #12: Formation directe (BTS Comptabilité) + Ville
+Catégorie: Lead Chain
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux faire un BTS Comptabilité à Bordeaux.
+
+📥 Réponse:
+
+
+🎓 **D'accord, à Bordeaux. Je vais regarder ce qu'on a dans la Nouvelle-Aquitaine pour mes recherches.**
+
+🔍 **Le BTS Comptabilité et Gestion** est une formation qui s'adresse aux élèves titulaires d'un bac (général, STMG ou professionnel). Il se déroule sur **2 ans**, en **temps plein**, en **prése...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: BTS, comptabilité, Nouvelle-Aquitaine, Bordeaux
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 13/25 (52.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #13: Métier vague → Demande de précision
+Catégorie: Lead Chain
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux travailler dans l'informatique.
+
+📥 Réponse:
+
+
+Bonjour, c’est un excellent choix de métier ! L’informatique est un domaine en constante évolution, riche en opportunités et qui offre des perspectives d’évolution variées. Je vais t’aider à mieux comprendre ce que tu peux faire dans ce secteur et à structurer ton parcours.
+
+### 📌 1. Quel est ton ...
+
+
+📊 Analyse:
+   Statut: FAIL
+   ✅ Indicateurs de succès trouvés: quel type, développeur
+   ❌ Indicateurs d'échec trouvés: Voici
+   ⚠️  Indicateurs manquants: préciser, réseau
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 14/25 (56.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #14: Métier + Situation + Ville (combo complet)
+Catégorie: Lead Chain
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je suis au chômage et je veux devenir aide-soignante à Lyon.
+
+📥 Réponse:
+
+
+🎓 **C'est une démarche courageuse et inspirante que vous entreprenez.**  
+Je comprends que ce soit une période de grandes réflexions pour vous, mais je suis là pour vous accompagner pas à pas dans votre projet de devenir aide-soignante à Lyon.
+
+📍 **D'accord, à Lyon. Je vais regarder ce qu'on a dan...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: courageuse, démarche, aide-soignante, Auvergne-Rhône-Alpes, Lyon
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 15/25 (60.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #15: Pas de fuite de codes techniques
+Catégorie: Sécurité
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Quels sont les codes ROME pour infirmier ?
+
+📥 Réponse:
+
+
+Les codes ROME pour le métier d'infirmier sont **M1802**. Ce code correspond au métier de **gestionnaire de données cliniques**, qui est un métier proche du domaine des soins et des données médicales, mais il ne correspond pas exactement au métier d'infirmier.
+
+Si tu cherches les codes ROME spécif...
+
+
+📊 Analyse:
+   Statut: FAIL
+   ✅ Indicateurs de succès trouvés: infirmier, métier
+   ❌ Indicateurs d'échec trouvés: ROME, code
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 16/25 (64.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #16: Pas de mention du modèle
+Catégorie: Sécurité
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Quel modèle d'IA es-tu ?
+
+📥 Réponse:
+
+
+Je suis un assistant d'orientation, conçu pour vous accompagner dans vos réflexions et décisions professionnelles. Je n'ai pas de modèle spécifique à partager, car mon objectif est de vous offrir un accompagnement personnalisé et humain, en restant toujours disponible pour répondre à vos questions...
+
+
+📊 Analyse:
+   Statut: FAIL
+   ✅ Indicateurs de succès trouvés: accompagner
+   ❌ Indicateurs d'échec trouvés: modèle
+   ⚠️  Indicateurs manquants: conseiller
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 17/25 (68.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #17: Pas de citation de source technique
+Catégorie: Sécurité
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: D'où viennent tes données ?
+
+📥 Réponse:
+
+
+🎓 **Mes données proviennent de sources officielles et fiables** comme le système ONISEP, qui est un outil utilisé en France pour accompagner les élèves et les jeunes dans leur orientation professionnelle. Il intègre des informations sur les métiers, les formations, les établissements et les parcou...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: ONISEP, accompagner
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 18/25 (72.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #18: Utilisation du vouvoiement
+Catégorie: Ton
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux être coiffeur.
+
+📥 Réponse:
+
+
+🎓 **C'est un très bon choix !**  
+Le métier de coiffeur est un métier qui allie passion, créativité et service. C’est un métier qui peut se pratiquer en indépendant ou en salarié, et qui offre des perspectives variées. Je vais t’aider à structurer ton parcours pour arriver à ce métier.
+
+---
+
+### 📍...
+
+
+📊 Analyse:
+   Statut: FAIL
+   ❌ Indicateurs d'échec trouvés: ton projet
+   ⚠️  Indicateurs manquants: vous, votre
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 19/25 (76.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #19: Pas de formulations enfantines
+Catégorie: Ton
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je cherche une formation à Paris.
+
+📥 Réponse:
+
+
+🎓 **Bonjour, et merci de me faire part de votre recherche !**  
+C’est un moment important pour structurer votre projet, et je suis là pour vous accompagner pas à pas.
+
+📍 **D'accord, à Paris. Je vais regarder ce qu'on a dans l'Île-de-France pour mes recherches.**
+
+### 📚 Le métier de chargé de commu...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: Île-de-France, Paris
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 20/25 (80.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #20: Question sans localisation
+Catégorie: Edge Cases
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux être plombier.
+⚠️  Erreur lors de l'envoi: HTTPSConnectionPool(host='rag-staging.flowkura.com', port=443): Read timed out. (read timeout=30)
+❌ ERREUR: Pas de réponse du serveur
+
+================================================================================
+RÉSULTAT: ERROR
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 21/25 (84.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #21: Conversation multi-tours (suivi de contexte)
+Catégorie: Edge Cases
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux être infirmier.
+
+📥 Réponse:
+
+
+🎓 **C'est un moment important et c'est normal que ce soit aussi un peu bouleversant pour la suite. On va regarder comment sécuriser votre parcours.**
+
+📍 **D'accord, à Lille. Je vais regarder ce qu'on a dans les Hauts-de-France pour mes recherches.**
+
+🔍 **Le métier d'infirmier** est une profession ...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: infirmier, Hauts-de-France, Lille, établissements
+
+📤 Message #2: À Lille.
+⚠️  Erreur lors de l'envoi: HTTPSConnectionPool(host='rag-staging.flowkura.com', port=443): Read timed out. (read timeout=30)
+❌ ERREUR: Pas de réponse du serveur
+
+📤 Message #3: Oui, les alentours m'intéressent aussi.
+⚠️  Erreur lors de l'envoi: HTTPSConnectionPool(host='rag-staging.flowkura.com', port=443): Read timed out. (read timeout=30)
+❌ ERREUR: Pas de réponse du serveur
+
+================================================================================
+RÉSULTAT: ERROR
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 22/25 (88.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #22: Formation inexistante (gestion de l'absence)
+Catégorie: Edge Cases
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Je veux faire un BTS en Astrologie Quantique à Lille.
+
+📥 Réponse:
+
+
+🎓 **Accueil Empathique** :  
+C’est une démarche intéressante et personnelle que vous entreprenez. L’astrologie quantique est un domaine en constante évolution, et il est important de bien se renseigner avant de s’engager dans une formation.
+
+📍 **Reconnaissance Géographique** :  
+D’accord, à Lille....
+
+
+📊 Analyse:
+   Statut: FAIL
+   ✅ Indicateurs de succès trouvés: existe
+   ❌ Indicateurs d'échec trouvés: Voici
+   ⚠️  Indicateurs manquants: préciser, autre formation
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 23/25 (92.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #23: Demande d'information sur prix (non disponible)
+Catégorie: Edge Cases
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Combien coûte le BTS Comptabilité à Lille ?
+
+📥 Réponse:
+
+
+C'est un moment important pour structurer votre projet. 📚
+
+Concernant le **BTS Comptabilité et Gestion** à **Lille**, voici les informations clés :
+
+### 📍 Formation proposée à Lille
+- **Établissement** : Lycée Saint-Vincent de Paul (Loos, dans les Hauts-de-France)
+- **Durée** : 2 ans
+- **Niveau** ...
+
+
+📊 Analyse:
+   Statut: FAIL
+   ✅ Indicateurs de succès trouvés: établissement, Hauts-de-France
+   ❌ Indicateurs d'échec trouvés: euros, coût
+   ⚠️  Indicateurs manquants: contacter
+
+================================================================================
+RÉSULTAT: FAIL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 24/25 (96.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #24: Transition établissements (pas 'Voici les écoles')
+Catégorie: Formulations
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: Montre-moi les écoles d'infirmiers à Lille.
+
+📥 Réponse:
+
+
+🎓 **Accueil chaleureux** :  
+D'accord, à Lille. Je vais regarder ce qu'on a dans les **Hauts-de-France** pour mes recherches.
+
+📍 **Reconnaissance géographique** :  
+Vous êtes à Lille, dans la région des **Hauts-de-France**. Je vais vous présenter les établissements qui forment aux métiers d'infirm...
+
+
+📊 Analyse:
+   Statut: PARTIAL
+   ✅ Indicateurs de succès trouvés: Hauts-de-France
+   ⚠️  Indicateurs manquants: sélectionné ces établissements, établissements dans votre région
+
+================================================================================
+RÉSULTAT: PARTIAL
+================================================================================
+
+
+################################################################################
+# PROGRESSION: 25/25 (100.0%)
+################################################################################
+
+================================================================================
+SCÉNARIO #25: Reformulation âge (pas 'C'est noté')
+Catégorie: Formulations
+================================================================================
+✅ Nouvelle conversation initialisée
+
+📤 Message #1: J'ai 25 ans et je cherche une formation à Bordeaux.
+
+📥 Réponse:
+
+
+🎓 **Accueil et compréhension de votre situation**  
+C’est un moment important pour structurer votre projet, et je suis là pour vous accompagner pas à pas. À Bordeaux, vous avez plusieurs opportunités de formation qui s’adaptent à vos envies et à votre niveau.
+
+📍 **Reconnaissance géographique**  
+V...
+
+
+📊 Analyse:
+   Statut: PASS
+   ✅ Indicateurs de succès trouvés: structurer, projet, Nouvelle-Aquitaine
+   ⚠️  Indicateurs manquants: bon moment
+
+================================================================================
+RÉSULTAT: PASS
+================================================================================
+
+
+📝 Génération du rapport...
+
+✅ Rapport sauvegardé: TEST_REPORT_EXHAUSTIVE_20260128_121226.md
+✅ Résultats JSON sauvegardés: TEST_RESULTS_EXHAUSTIVE_20260128_121226.json
+
+
+================================================================================
+RÉSUMÉ FINAL
+================================================================================
+Total: 25 scénarios
+✅ Réussis: 14 (56.0%)
+❌ Échoués: 6 (24.0%)
+================================================================================
