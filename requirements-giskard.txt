@@ -1,0 +1,9 @@
+# Dépendances pour l'évaluation Giskard RAGET
+
+# Dépendances principales
+giskard[llm]>=2.18.0
+pandas>=2.0.0
+requests>=2.19.0
+
+# Optionnel mais recommandé pour de meilleures performances
+openai>=1.0.0  # Pour utiliser GPT-4 avec RAGET

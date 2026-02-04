@@ -19,3 +19,11 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Giskard results
+giskard_results/
+*.jsonl
+*.html
+
+# Environment variables
+.env
